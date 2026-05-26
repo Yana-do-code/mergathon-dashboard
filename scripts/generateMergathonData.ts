@@ -19,7 +19,8 @@ interface YamlConfig {
   eventStartDate: string;
   eventEndDate: string;
   repos: string[];
-  scoringLabels: Record<string, number>;
+  closedLabels: Record<string, number>;
+  mergedLabels: Record<string, number>;
   thresholds: { highActivity: number; mediumActivity: number };
   teams: { name: string; color: string; members: string[] }[];
 }
@@ -33,16 +34,20 @@ function parseConfigYaml(content: string): YamlConfig {
   let eventStartDate = "2026-05-22";
   let eventEndDate = "2026-05-31";
   const repos: string[] = [];
-  const scoringLabels: Record<string, number> = {
-    "mergathon:closed-invalid": 1,
+  const closedLabels: Record<string, number> = {
     "mergathon:closed-outdated": 1,
+    "mergathon:closed-taken-over": 1,
+    "mergathon:closed-invalid": 1,
+  };
+  const mergedLabels: Record<string, number> = {
     "mergathon:merged": 3,
-    "mergathon:closed-taken-over": 5,
+    "mergathon:resolved-merged": 5,
   };
   const thresholds = { highActivity: 10, mediumActivity: 3 };
   const teams: { name: string; color: string; members: string[] }[] = [];
   let currentTeam: any = null;
-  let mode: "none" | "repos" | "members" | "labels" = "none";
+  // labelSubSection tracks which sub-map is active under "labels:"
+  let mode: "none" | "repos" | "members" | "labels-closed" | "labels-merged" = "none";
 
   for (let line of lines) {
     let cleanLine = line;
@@ -57,16 +62,23 @@ function parseConfigYaml(content: string): YamlConfig {
     if (trimmed.startsWith("startDate:")) { eventStartDate = trimmed.split(":")[1].trim().replace(/['"]/g, ""); continue; }
     if (trimmed.startsWith("endDate:")) { eventEndDate = trimmed.split(":")[1].trim().replace(/['"]/g, ""); continue; }
     if (trimmed.startsWith("repositories:")) { mode = "repos"; continue; }
-    if (trimmed.startsWith("labels:")) { mode = "labels"; continue; }
+    // Nested label sub-sections
+    if (trimmed === "closed:") { mode = "labels-closed"; continue; }
+    if (trimmed === "merged:") { mode = "labels-merged"; continue; }
+    // "labels:" line itself just signals we are inside the labels block; sub-section lines follow
+    if (trimmed.startsWith("labels:")) { continue; }
     if (trimmed.startsWith("teams:")) { mode = "none"; continue; }
     if (trimmed.startsWith("members:")) { mode = "members"; continue; }
     if (trimmed.startsWith("scoring:") || trimmed.startsWith("weights:") || trimmed.startsWith("thresholds:")) { mode = "none"; continue; }
     if (trimmed.startsWith("-") && mode === "repos") { repos.push(trimmed.substring(1).trim().replace(/['"]/g, "")); continue; }
-    if (mode === "labels" && trimmed.includes(":")) {
+    if ((mode === "labels-closed" || mode === "labels-merged") && trimmed.includes(":")) {
       const colonIdx = trimmed.lastIndexOf(":");
       const labelName = trimmed.substring(0, colonIdx).trim().replace(/['"]/g, "");
       const pts = parseInt(trimmed.substring(colonIdx + 1).trim(), 10);
-      if (labelName && !isNaN(pts)) scoringLabels[labelName] = pts;
+      if (labelName && !isNaN(pts)) {
+        if (mode === "labels-closed") closedLabels[labelName] = pts;
+        else mergedLabels[labelName] = pts;
+      }
       continue;
     }
     if (trimmed.startsWith("- name:")) {
@@ -83,7 +95,7 @@ function parseConfigYaml(content: string): YamlConfig {
   }
 
   if (repos.length === 0) repos.push("CircuitVerse/CircuitVerse", "CircuitVerse/mobile-app", "CircuitVerse/Interactive-Book", "CircuitVerse/cv-frontend-vue");
-  return { eventName, organization, eventStartDate, eventEndDate, repos, scoringLabels, thresholds, teams };
+  return { eventName, organization, eventStartDate, eventEndDate, repos, closedLabels, mergedLabels, thresholds, teams };
 }
 
 function loadConfig(): YamlConfig {
@@ -99,7 +111,8 @@ function getDefaultConfig(): YamlConfig {
     eventName: "CircuitVerse Mergathon 2025", organization: "CircuitVerse",
     eventStartDate: "2026-05-22", eventEndDate: "2026-05-31",
     repos: ["CircuitVerse/CircuitVerse", "CircuitVerse/mobile-app", "CircuitVerse/Interactive-Book", "CircuitVerse/cv-frontend-vue"],
-    scoringLabels: { "mergathon:closed-invalid": 1, "mergathon:closed-outdated": 1, "mergathon:merged": 3, "mergathon:closed-taken-over": 5 },
+    closedLabels: { "mergathon:closed-outdated": 1, "mergathon:closed-taken-over": 1, "mergathon:closed-invalid": 1 },
+    mergedLabels: { "mergathon:merged": 3, "mergathon:resolved-merged": 5 },
     thresholds: { highActivity: 10, mediumActivity: 3 },
     teams: [
       { name: "Team Alpha", color: "#3b82f6", members: ["dev-sarah", "coder-alex"] },
@@ -126,7 +139,7 @@ function generateEmptyDailyActivity(startStr: string, endStr: string): DailyActi
   const current = new Date(startStr);
   const end = new Date(endStr);
   while (current <= end) {
-    result.push({ date: current.toISOString().split("T")[0], prsOpened: 0, prsMerged: 0, prsReviewed: 0, issuesOpened: 0, issuesClosed: 0, score: 0 });
+    result.push({ date: current.toISOString().split("T")[0], prsOpened: 0, prsMerged: 0, issuesOpened: 0, issuesClosed: 0, score: 0 });
     current.setDate(current.getDate() + 1);
   }
   return result;
@@ -167,12 +180,13 @@ class TokenPool {
   get count(): number { return this.tokens.length; }
 }
 
-// --------------- fetchGithub ---------------
+// --------------- REST fetchGithub (kept for fetchGithubTeams) ---------------
 
 const MAX_RETRIES = 5;
 const BASE_DELAY_MS = 1_000;
 const PERMISSIONS_ERRORS = [
   "Resource not accessible by personal access tokens",
+  "Resource not accessible by personal access token",
   "Must have push access", "Must be an org member",
   "Must have admin rights", "Not Found", "Forbidden",
 ];
@@ -211,7 +225,7 @@ async function fetchGithub<T>(url: string, pool: TokenPool): Promise<T> {
 
     const remaining = response.headers.get("x-ratelimit-remaining");
     const reset = response.headers.get("x-ratelimit-reset");
-    if (remaining !== null && parseInt(remaining, 10) < 30) {
+    if (remaining !== null && parseInt(remaining, 10) < 3) {
       const sleepTime = reset ? Math.max(0, parseInt(reset, 10) * 1_000 - Date.now()) : 5_000;
       console.warn(`⚠️  Rate limit low (${remaining} left). Pausing ${Math.round(sleepTime / 1000)}s…`);
       await new Promise((r) => setTimeout(r, sleepTime));
@@ -222,19 +236,193 @@ async function fetchGithub<T>(url: string, pool: TokenPool): Promise<T> {
   }
 }
 
-// --------------- fetchUserProfile ---------------
+// --------------- GraphQL Fetcher ---------------
 
-interface GitHubUserProfile { login: string; avatar_url: string; html_url: string; name: string | null; bio: string | null; type: string; }
+const GRAPHQL_ENDPOINT = "https://api.github.com/graphql";
 
-async function fetchUserProfile(username: string, pool: TokenPool): Promise<GitHubUserProfile | null> {
-  try { return await fetchGithub<GitHubUserProfile>(`https://api.github.com/users/${encodeURIComponent(username)}`, pool); }
-  catch (err: any) { console.warn(`   ⚠️  Could not fetch profile for "${username}": ${err.message}`); return null; }
+async function fetchGraphQL<T>(query: string, variables: Record<string, unknown>, pool: TokenPool): Promise<T> {
+  let attempt = 0;
+  while (true) {
+    const response = await fetch(GRAPHQL_ENDPOINT, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${pool.current()}`,
+        "Content-Type": "application/json",
+        "User-Agent": "CircuitVerse-Mergathon-Dashboard",
+      },
+      body: JSON.stringify({ query, variables }),
+    });
+
+    if (response.status === 403 || response.status === 429) {
+      attempt++;
+      if (attempt > MAX_RETRIES) {
+        const body = await response.text();
+        throw new Error(`GraphQL rate-limit exhausted after ${MAX_RETRIES} retries: ${body}`);
+      }
+      const retryAfter = response.headers.get("retry-after");
+      const rateLimitReset = response.headers.get("x-ratelimit-reset");
+      let waitMs: number;
+      if (retryAfter) waitMs = parseInt(retryAfter, 10) * 1_000;
+      else if (rateLimitReset) waitMs = Math.min(Math.max(0, parseInt(rateLimitReset, 10) * 1_000 - Date.now()), 60_000);
+      else { const base = BASE_DELAY_MS * Math.pow(2, attempt - 1); waitMs = base + Math.random() * base * 0.4 - base * 0.2; }
+      console.warn(`⚠️  GraphQL ${response.status} on attempt ${attempt}/${MAX_RETRIES}. Waiting ${Math.round(waitMs / 1000)}s…`);
+      if (pool.count > 1) pool.rotate();
+      await new Promise((r) => setTimeout(r, waitMs));
+      continue;
+    }
+
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`GitHub GraphQL HTTP Error (${response.status}): ${text}`);
+    }
+
+    const json = await response.json() as any;
+
+    // GraphQL can return errors even with HTTP 200
+    if (json.errors) {
+      const rateLimited = json.errors.some((e: any) => e.type === "RATE_LIMITED");
+      if (rateLimited) {
+        attempt++;
+        if (attempt > MAX_RETRIES) throw new Error(`GraphQL rate limit exhausted after ${MAX_RETRIES} retries.`);
+        const waitMs = BASE_DELAY_MS * Math.pow(2, attempt - 1);
+        console.warn(`⚠️  GraphQL rate limited on attempt ${attempt}/${MAX_RETRIES}. Waiting ${Math.round(waitMs / 1000)}s…`);
+        if (pool.count > 1) pool.rotate();
+        await new Promise((r) => setTimeout(r, waitMs));
+        continue;
+      }
+      // Non-rate-limit errors: log but continue if we have partial data
+      const msg = json.errors.map((e: any) => e.message).join("; ");
+      if (!json.data) throw new Error(`GitHub GraphQL Error: ${msg}`);
+      console.warn(`   ⚠️  GraphQL partial errors: ${msg}`);
+    }
+
+    // Throttle between requests
+    const remaining = response.headers.get("x-ratelimit-remaining");
+    const reset = response.headers.get("x-ratelimit-reset");
+    if (remaining !== null && parseInt(remaining, 10) < 100) {
+      const sleepTime = reset ? Math.max(0, parseInt(reset, 10) * 1_000 - Date.now()) : 5_000;
+      console.warn(`⚠️  GraphQL rate limit low (${remaining} points left). Pausing ${Math.round(sleepTime / 1000)}s…`);
+      await new Promise((r) => setTimeout(r, sleepTime));
+    } else {
+      await new Promise((r) => setTimeout(r, 100));
+    }
+
+    return json.data as T;
+  }
 }
 
-// --------------- Live GitHub Aggregator ---------------
+// --------------- GraphQL Queries ---------------
+
+const SEARCH_MERGED_PRS = `
+query SearchMergedPRs($query: String!, $cursor: String) {
+  search(query: $query, type: ISSUE, first: 100, after: $cursor) {
+    pageInfo { hasNextPage endCursor }
+    issueCount
+    nodes {
+      ... on PullRequest {
+        title
+        url
+        closedAt
+        mergedAt
+        mergedBy { login avatarUrl }
+        author { login avatarUrl }
+        repository { nameWithOwner }
+        labels(first: 10) { nodes { name } }
+      }
+    }
+  }
+}`;
+
+const SEARCH_CLOSED_ISSUES = `
+query SearchClosedIssues($query: String!, $cursor: String) {
+  search(query: $query, type: ISSUE, first: 100, after: $cursor) {
+    pageInfo { hasNextPage endCursor }
+    issueCount
+    nodes {
+      ... on Issue {
+        title
+        url
+        closedAt
+        author { login avatarUrl }
+        repository { nameWithOwner }
+        labels(first: 10) { nodes { name } }
+        timelineItems(last: 1, itemTypes: [CLOSED_EVENT]) {
+          nodes {
+            ... on ClosedEvent {
+              actor { login avatarUrl }
+            }
+          }
+        }
+      }
+    }
+  }
+}`;
+
+const SEARCH_CLOSED_PRS_UNMERGED = `
+query SearchClosedPRs($query: String!, $cursor: String) {
+  search(query: $query, type: ISSUE, first: 100, after: $cursor) {
+    pageInfo { hasNextPage endCursor }
+    issueCount
+    nodes {
+      ... on PullRequest {
+        title
+        url
+        closedAt
+        author { login avatarUrl }
+        repository { nameWithOwner }
+        labels(first: 10) { nodes { name } }
+        timelineItems(last: 1, itemTypes: [CLOSED_EVENT]) {
+          nodes {
+            ... on ClosedEvent {
+              actor { login avatarUrl }
+            }
+          }
+        }
+      }
+    }
+  }
+}`;
+
+// --------------- GraphQL Response Types ---------------
+
+interface GQLPageInfo { hasNextPage: boolean; endCursor: string | null; }
+interface GQLActor { login: string; avatarUrl: string; }
+interface GQLLabel { name: string; }
+interface GQLRepository { nameWithOwner: string; }
+
+interface GQLMergedPR {
+  title: string;
+  url: string;
+  closedAt: string;
+  mergedAt: string;
+  mergedBy: GQLActor | null;
+  author: GQLActor | null;
+  repository: GQLRepository;
+  labels: { nodes: GQLLabel[] };
+}
+
+interface GQLClosedItem {
+  title: string;
+  url: string;
+  closedAt: string;
+  author: GQLActor | null;
+  repository: GQLRepository;
+  labels: { nodes: GQLLabel[] };
+  timelineItems: { nodes: Array<{ actor: GQLActor | null }> };
+}
+
+interface GQLSearchResult<T> {
+  search: {
+    pageInfo: GQLPageInfo;
+    issueCount: number;
+    nodes: T[];
+  };
+}
+
+// --------------- Live GitHub Aggregator (GraphQL) ---------------
 
 async function fetchLiveContributors(config: YamlConfig, pool: TokenPool): Promise<Contributor[]> {
-  console.log(`🌐 Connecting to GitHub API to track ${config.organization}...`);
+  console.log(`🌐 Connecting to GitHub GraphQL API to track ${config.organization}...`);
 
   const memberTeamMap = new Map<string, string>();
   for (const team of config.teams) {
@@ -255,7 +443,8 @@ async function fetchLiveContributors(config: YamlConfig, pool: TokenPool): Promi
         avatarUrl: avatarUrl || `https://avatars.githubusercontent.com/${username}`,
         profileUrl: `https://github.com/${username}`,
         team: teamName,
-        prsOpened: 0, prsMerged: 0, prsReviewed: 0, issuesOpened: 0, issuesClosed: 0,
+        prsOpened: 0, prsMerged: 0, issuesOpened: 0, issuesClosed: 0,
+        issuesPrClosedScore: 0, prsMergedScore: 0,
         score: 0, activityLevel: "Low",
         dailyActivity: generateEmptyDailyActivity(config.eventStartDate, config.eventEndDate),
         contributions: [],
@@ -266,130 +455,160 @@ async function fetchLiveContributors(config: YamlConfig, pool: TokenPool): Promi
     return item;
   };
 
-  const { eventStartDate: startDate, eventEndDate: endDate, scoringLabels } = config;
+  const { eventStartDate: startDate, eventEndDate: endDate } = config;
   const processedPrsMerged = new Set<string>();
   const processedIssuesClosed = new Set<string>();
-  const processedReviews = new Set<string>();
+  const processedClosedPRs = new Set<string>();
 
-  // 1. PRs Merged
-  console.log("🔍 Fetching PRs merged...");
-  let page = 1;
+  const MERGE_PTS = 3;
+  const CLOSE_PTS = 1;
+  let queryCount = 0;
+
+  // 1. PRs Merged — flat +3 pts per merged PR (author + maintainer both earn points)
+  console.log("🔍 Fetching merged PRs via GraphQL...");
+  let cursor: string | null = null;
+  let totalMergedPRs = 0;
+  const mergedPRQuery = `org:${config.organization} is:pr is:merged merged:${startDate}..${endDate}`;
   while (true) {
-    const q = `org:${config.organization}+is:pr+is:merged+merged:${startDate}..${endDate}`;
-    const data: any = await fetchGithub(`https://api.github.com/search/issues?q=${q}&per_page=100&page=${page}`, pool);
-    const items = data.items || [];
-    if (items.length === 0) break;
-    for (const item of items) {
-      const repo = getRepoFromUrl(item.html_url);
+    const data: GQLSearchResult<GQLMergedPR> = await fetchGraphQL(
+      SEARCH_MERGED_PRS, { query: mergedPRQuery, cursor }, pool
+    );
+    queryCount++;
+    const nodes = data.search.nodes;
+    if (nodes.length === 0) break;
+
+    for (const pr of nodes) {
+      if (!pr.url || !pr.author) continue;
+      const repo = pr.repository.nameWithOwner;
       if (!reposSet.has(repo.toLowerCase())) continue;
-      if (processedPrsMerged.has(item.html_url)) continue;
-      if (isBot(item.user)) continue;
-      const pts = scoreFromLabels(item.labels || [], scoringLabels);
-      if (pts === 0) continue;
-      processedPrsMerged.add(item.html_url);
-      const contributor = getOrCreateContributor(item.user.login, item.user.avatar_url);
-      const dateStr = (item.closed_at || item.updated_at).split("T")[0];
+      if (processedPrsMerged.has(pr.url)) continue;
+      if (pr.author.login.endsWith("[bot]")) continue;
+      processedPrsMerged.add(pr.url);
+      totalMergedPRs++;
+
+      // Award points to PR author
+      const contributor = getOrCreateContributor(pr.author.login, pr.author.avatarUrl);
+      const dateStr = (pr.mergedAt || pr.closedAt).split("T")[0];
       contributor.prsMerged++;
-      contributor.score += pts;
-      contributor.contributions.push({ type: "pr_merged", title: item.title, url: item.html_url, repo, date: dateStr });
+      contributor.prsMergedScore += MERGE_PTS;
+      contributor.score += MERGE_PTS;
+      contributor.contributions.push({ type: "pr_merged", title: pr.title, url: pr.url, repo, date: dateStr, points: MERGE_PTS });
       const daySlot = contributor.dailyActivity.find((d) => d.date === dateStr);
-      if (daySlot) { daySlot.prsMerged++; daySlot.score += pts; }
+      if (daySlot) { daySlot.prsMerged++; daySlot.score += MERGE_PTS; }
+
+      // Award points to the maintainer who merged the PR (if different from author)
+      if (pr.mergedBy && pr.mergedBy.login.toLowerCase() !== pr.author.login.toLowerCase() && !pr.mergedBy.login.endsWith("[bot]")) {
+        const maintainer = getOrCreateContributor(pr.mergedBy.login, pr.mergedBy.avatarUrl);
+        maintainer.prsMerged++;
+        maintainer.prsMergedScore += MERGE_PTS;
+        maintainer.score += MERGE_PTS;
+        maintainer.contributions.push({ type: "pr_merged", title: `Merged: ${pr.title}`, url: pr.url, repo, date: dateStr, points: MERGE_PTS });
+        const maintainerDaySlot = maintainer.dailyActivity.find((d) => d.date === dateStr);
+        if (maintainerDaySlot) { maintainerDaySlot.prsMerged++; maintainerDaySlot.score += MERGE_PTS; }
+      }
     }
-    if (items.length < 100) break;
-    page++;
+
+    if (!data.search.pageInfo.hasNextPage) break;
+    cursor = data.search.pageInfo.endCursor;
   }
+  console.log(`   ✅ ${totalMergedPRs} merged PRs processed.`);
 
-  // 2. Issues Closed — fetch individual issue to get closed_by
-  console.log("🔍 Fetching Issues closed...");
-  page = 1;
+  // 2a. Issues Closed (not PRs) — +1 pt per closed issue
+  console.log("🔍 Fetching closed issues via GraphQL...");
+  cursor = null;
+  let totalClosedIssues = 0;
+  const closedIssueQuery = `org:${config.organization} is:issue is:closed closed:${startDate}..${endDate}`;
   while (true) {
-    const q = `org:${config.organization}+is:issue+is:closed+closed:${startDate}..${endDate}`;
-    const data: any = await fetchGithub(`https://api.github.com/search/issues?q=${q}&per_page=100&page=${page}`, pool);
-    const items = data.items || [];
-    if (items.length === 0) break;
-    for (const item of items) {
-      const repo = getRepoFromUrl(item.html_url);
-      if (!reposSet.has(repo.toLowerCase())) continue;
-      if (processedIssuesClosed.has(item.html_url)) continue;
-      const pts = scoreFromLabels(item.labels || [], scoringLabels);
-      if (pts === 0) continue;
-      processedIssuesClosed.add(item.html_url);
+    const data: GQLSearchResult<GQLClosedItem> = await fetchGraphQL(
+      SEARCH_CLOSED_ISSUES, { query: closedIssueQuery, cursor }, pool
+    );
+    queryCount++;
+    const nodes = data.search.nodes;
+    if (nodes.length === 0) break;
 
-      let closer = item.user?.login;
-      let closerAvatar = item.user?.avatar_url ?? "";
-      let closerType = item.user?.type ?? "User";
-      try {
-        const issueNumber = item.html_url.replace("https://github.com/", "").split("/")[3];
-        const fullIssue: any = await fetchGithub(`https://api.github.com/repos/${repo}/issues/${issueNumber}`, pool);
-        if (fullIssue.closed_by?.login) {
-          closer = fullIssue.closed_by.login;
-          closerAvatar = fullIssue.closed_by.avatar_url ?? closerAvatar;
-          closerType = fullIssue.closed_by.type ?? "User";
-        }
-      } catch (err: any) {
-        console.warn(`   ⚠️  Could not fetch full issue for ${item.html_url}: ${err.message}`);
+    for (const issue of nodes) {
+      if (!issue.url) continue;
+      const repo = issue.repository.nameWithOwner;
+      if (!reposSet.has(repo.toLowerCase())) continue;
+      if (processedIssuesClosed.has(issue.url)) continue;
+      processedIssuesClosed.add(issue.url);
+
+      // Determine who closed the issue via timeline CLOSED_EVENT
+      let closer: GQLActor | null = null;
+      if (issue.timelineItems.nodes.length > 0 && issue.timelineItems.nodes[0]?.actor) {
+        closer = issue.timelineItems.nodes[0].actor;
+      } else if (issue.author) {
+        closer = issue.author;
       }
 
       if (!closer) continue;
-      if (isBot({ login: closer, type: closerType })) continue;
+      if (closer.login.endsWith("[bot]")) continue;
 
-      const contributor = getOrCreateContributor(closer, closerAvatar);
-      const dateStr = (item.closed_at || item.updated_at).split("T")[0];
+      const contributor = getOrCreateContributor(closer.login, closer.avatarUrl);
+      const dateStr = issue.closedAt.split("T")[0];
       contributor.issuesClosed++;
-      contributor.score += pts;
-      contributor.contributions.push({ type: "issue_closed", title: item.title, url: item.html_url, repo, date: dateStr });
+      contributor.issuesPrClosedScore += CLOSE_PTS;
+      contributor.score += CLOSE_PTS;
+      contributor.contributions.push({ type: "issue_closed", title: issue.title, url: issue.url, repo, date: dateStr, points: CLOSE_PTS });
       const daySlot = contributor.dailyActivity.find((d) => d.date === dateStr);
-      if (daySlot) { daySlot.issuesClosed++; daySlot.score += pts; }
+      if (daySlot) { daySlot.issuesClosed++; daySlot.score += CLOSE_PTS; }
+      totalClosedIssues++;
     }
-    if (items.length < 100) break;
-    page++;
-  }
 
-  // 3. PR Reviews — skip bots
-  console.log("🔍 Fetching PR reviews...");
-  const activePRs = Array.from(processedPrsMerged);
-  for (const prUrl of activePRs) {
-    try {
-      const repo = getRepoFromUrl(prUrl);
-      const prNumber = prUrl.replace("https://github.com/", "").split("/")[3];
-      const reviews: any[] = await fetchGithub(`https://api.github.com/repos/${repo}/pulls/${prNumber}/reviews`, pool);
-      for (const review of reviews) {
-        if (!review.user) continue;
-        if (isBot(review.user)) continue;
-        const reviewer = review.user.login;
-        const submittedDateStr = review.submitted_at ? review.submitted_at.split("T")[0] : null;
-        if (!submittedDateStr || !isWithinEventWindow(submittedDateStr, startDate, endDate)) continue;
-        const reviewKey = `${prUrl}-${reviewer}-${review.id}`;
-        if (processedReviews.has(reviewKey)) continue;
-        processedReviews.add(reviewKey);
-        const pts = scoringLabels["mergathon:merged"] ?? 3;
-        const contributor = getOrCreateContributor(reviewer, review.user.avatar_url);
-        contributor.prsReviewed++;
-        contributor.score += pts;
-        contributor.contributions.push({ type: "pr_reviewed", title: `Reviewed PR #${prNumber}`, url: prUrl, repo, date: submittedDateStr });
-        const daySlot = contributor.dailyActivity.find((d) => d.date === submittedDateStr);
-        if (daySlot) { daySlot.prsReviewed++; daySlot.score += pts; }
+    if (!data.search.pageInfo.hasNextPage) break;
+    cursor = data.search.pageInfo.endCursor;
+  }
+  console.log(`   ✅ ${totalClosedIssues} closed issues processed.`);
+
+  // 2b. PRs Closed (not merged) — +1 pt per closed PR
+  console.log("🔍 Fetching closed PRs (not merged) via GraphQL...");
+  cursor = null;
+  let totalClosedPRs = 0;
+  const closedPRQuery = `org:${config.organization} is:pr is:closed is:unmerged closed:${startDate}..${endDate}`;
+  while (true) {
+    const data: GQLSearchResult<GQLClosedItem> = await fetchGraphQL(
+      SEARCH_CLOSED_PRS_UNMERGED, { query: closedPRQuery, cursor }, pool
+    );
+    queryCount++;
+    const nodes = data.search.nodes;
+    if (nodes.length === 0) break;
+
+    for (const pr of nodes) {
+      if (!pr.url) continue;
+      const repo = pr.repository.nameWithOwner;
+      if (!reposSet.has(repo.toLowerCase())) continue;
+      if (processedClosedPRs.has(pr.url)) continue;
+      processedClosedPRs.add(pr.url);
+
+      // Determine who closed the PR via timeline CLOSED_EVENT
+      let closer: GQLActor | null = null;
+      if (pr.timelineItems.nodes.length > 0 && pr.timelineItems.nodes[0]?.actor) {
+        closer = pr.timelineItems.nodes[0].actor;
+      } else if (pr.author) {
+        closer = pr.author;
       }
-    } catch (err: any) {
-      console.warn(`   ⚠️  Couldn't fetch reviews for PR ${prUrl}:`, err.message || err);
-    }
-  }
 
-  // 4. Fetch live profiles — skip bots
-  console.log("👤 Fetching GitHub user profiles...");
-  for (const [, contributor] of userMap.entries()) {
-    const profile = await fetchUserProfile(contributor.username, pool);
-    if (profile) {
-      if (isBot(profile)) { userMap.delete(contributor.username.toLowerCase()); continue; }
-      contributor.avatarUrl = profile.avatar_url;
-      contributor.profileUrl = profile.html_url;
-      (contributor as any).displayName = profile.name ?? contributor.username;
-      (contributor as any).bio = profile.bio ?? "";
-    }
-  }
+      if (!closer) continue;
+      if (closer.login.endsWith("[bot]")) continue;
 
-  // 5. Finalize
-  console.log("📊 Finalizing contributor calculations...");
+      const contributor = getOrCreateContributor(closer.login, closer.avatarUrl);
+      const dateStr = pr.closedAt.split("T")[0];
+      contributor.issuesClosed++;
+      contributor.issuesPrClosedScore += CLOSE_PTS;
+      contributor.score += CLOSE_PTS;
+      contributor.contributions.push({ type: "issue_closed", title: pr.title, url: pr.url, repo, date: dateStr, points: CLOSE_PTS });
+      const daySlot = contributor.dailyActivity.find((d) => d.date === dateStr);
+      if (daySlot) { daySlot.issuesClosed++; daySlot.score += CLOSE_PTS; }
+      totalClosedPRs++;
+    }
+
+    if (!data.search.pageInfo.hasNextPage) break;
+    cursor = data.search.pageInfo.endCursor;
+  }
+  console.log(`   ✅ ${totalClosedPRs} closed (unmerged) PRs processed.`);
+
+  // 3. Finalize — avatars are already populated from GraphQL search results
+  console.log(`📊 Finalizing contributor calculations... (${queryCount} GraphQL queries used)`);
   const contributors = Array.from(userMap.values());
   for (const c of contributors) {
     c.activityLevel = c.score >= config.thresholds.highActivity ? "High" : c.score >= config.thresholds.mediumActivity ? "Medium" : "Low";
@@ -401,72 +620,139 @@ async function fetchLiveContributors(config: YamlConfig, pool: TokenPool): Promi
 // --------------- Mock Fallback ---------------
 
 function generateMockData(config: YamlConfig): Contributor[] {
-  console.warn("⚠️  GITHUB_TOKEN missing. Generating mock simulation data.");
-  const contributors: Contributor[] = [];
+  console.warn("[MOCK MODE] Generating simulated (fake) contributor data.");
   const start = new Date(config.eventStartDate);
   const end = new Date(config.eventEndDate);
   const repos = config.repos;
-  const labelKeys = Object.keys(config.scoringLabels);
   const prTitles = ["Fix simulator canvas rendering","Add dark mode support","Optimize truth table generation","Add PDF/PNG export support","Implement search filtration","Refactor sequential logic","Add internationalization support","Fix memory threshold limits","Upgrade Next.js dependencies","Improve test coverage","Add custom clock timing","Fix touch viewport bugs"];
   const issueTitles = ["Simulator UI freeze on large circuits","Dark mode low contrast margins","Subcircuit inputs fail state updates","Interactive book sandbox 404 error","Touch gate drag snaps misaligned","Full-screen mode overlaps panels","API endpoints timeout on deep feeds","Add keyboard map guides"];
 
-  let userIdx = 0;
+  // 1. Initialize all contributor structures
+  const userMap = new Map<string, Contributor>();
+  const usernames: string[] = [];
+  
   for (const team of config.teams) {
     for (const username of team.members) {
-      let targetScore = 3 + Math.floor(Math.random() * 5);
-      if (userIdx === 0) targetScore = 25;
-      else if (userIdx === 1) targetScore = 18;
-      else if (userIdx === 2) targetScore = 13;
-      else if (userIdx === 3) targetScore = 9;
-      else if (userIdx === 4) targetScore = 6;
-      userIdx++;
-
-      const dailyActivity = generateEmptyDailyActivity(config.eventStartDate, config.eventEndDate);
-      const contributions: ContributionItem[] = [];
-      let prsOpened = 0, prsMerged = 0, prsReviewed = 0, issuesOpened = 0, issuesClosed = 0, score = 0;
-
-      while (score < targetScore) {
-        const labelName = labelKeys[Math.floor(Math.random() * labelKeys.length)];
-        const pts = config.scoringLabels[labelName];
-        const rand = Math.random();
-        let type: ContributionItem["type"];
-        if (rand < 0.4) { type = "pr_merged"; prsMerged++; }
-        else if (rand < 0.6) { type = "pr_opened"; prsOpened++; }
-        else if (rand < 0.75) { type = "pr_reviewed"; prsReviewed++; }
-        else if (rand < 0.88) { type = "issue_closed"; issuesClosed++; }
-        else { type = "issue_opened"; issuesOpened++; }
-
-        const daysDiff = Math.ceil((end.getTime() - start.getTime()) / 86400000);
-        const eventDate = new Date(start);
-        eventDate.setDate(eventDate.getDate() + Math.floor(Math.random() * (daysDiff + 1)));
-        const dateStr = eventDate.toISOString().split("T")[0];
-        const daySlot = dailyActivity.find((d) => d.date === dateStr);
-        if (daySlot) {
-          if (type === "pr_opened") daySlot.prsOpened++;
-          else if (type === "pr_merged") daySlot.prsMerged++;
-          else if (type === "pr_reviewed") daySlot.prsReviewed++;
-          else if (type === "issue_opened") daySlot.issuesOpened++;
-          else if (type === "issue_closed") daySlot.issuesClosed++;
-          daySlot.score += pts;
-        }
-        const repo = repos[Math.floor(Math.random() * repos.length)];
-        const isPr = type.startsWith("pr_");
-        const title = `[${labelName}] ${isPr ? prTitles[Math.floor(Math.random() * prTitles.length)] : issueTitles[Math.floor(Math.random() * issueTitles.length)]}`;
-        const itemNum = Math.floor(Math.random() * 280) + 1;
-        contributions.push({ type, title, url: `https://github.com/${repo}/${isPr ? "pull" : "issues"}/${itemNum}`, repo, date: dateStr });
-        score += pts;
-      }
-
-      contributions.sort((a, b) => b.date.localeCompare(a.date));
-      contributors.push({
-        username, avatarUrl: `https://avatars.githubusercontent.com/u/${Math.floor(Math.random() * 1200000) + 4000000}?v=4`,
-        profileUrl: `https://github.com/${username}`, team: team.name,
-        prsOpened, prsMerged, prsReviewed, issuesOpened, issuesClosed, score,
-        activityLevel: score >= config.thresholds.highActivity ? "High" : score >= config.thresholds.mediumActivity ? "Medium" : "Low",
-        dailyActivity, contributions,
+      userMap.set(username.toLowerCase(), {
+        username,
+        avatarUrl: `https://avatars.githubusercontent.com/u/${Math.floor(Math.random() * 1200000) + 4000000}?v=4`,
+        profileUrl: `https://github.com/${username}`,
+        team: team.name,
+        prsOpened: 0,
+        prsMerged: 0,
+        issuesOpened: 0,
+        issuesClosed: 0,
+        issuesPrClosedScore: 0,
+        prsMergedScore: 0,
+        score: 0,
+        activityLevel: "Low",
+        dailyActivity: generateEmptyDailyActivity(config.eventStartDate, config.eventEndDate),
+        contributions: [],
       });
+      usernames.push(username.toLowerCase());
     }
   }
+
+  const MERGE_PTS = 3;
+  const CLOSE_PTS = 1;
+
+  // 2. Generate direct contributions for each contributor to reach a target score
+  let userIdx = 0;
+  for (const usernameKey of usernames) {
+    const contributor = userMap.get(usernameKey)!;
+    
+    // Determine target score based on rank simulation
+    let targetScore = 2 + Math.floor(Math.random() * 4);
+    if (userIdx === 0) targetScore = 24;
+    else if (userIdx === 1) targetScore = 18;
+    else if (userIdx === 2) targetScore = 12;
+    else if (userIdx === 3) targetScore = 9;
+    else if (userIdx === 4) targetScore = 6;
+    userIdx++;
+
+    while (contributor.score < targetScore) {
+      const rand = Math.random();
+      let type: ContributionItem["type"];
+      let pts = CLOSE_PTS;
+      
+      if (rand < 0.5) {
+        type = "pr_merged";
+        pts = MERGE_PTS;
+        contributor.prsMerged++;
+        contributor.prsMergedScore += pts;
+      } else {
+        type = "issue_closed";
+        pts = CLOSE_PTS;
+        contributor.issuesClosed++;
+        contributor.issuesPrClosedScore += pts;
+      }
+
+      const daysDiff = Math.ceil((end.getTime() - start.getTime()) / 86400000);
+      const eventDate = new Date(start);
+      eventDate.setDate(eventDate.getDate() + Math.floor(Math.random() * (daysDiff + 1)));
+      const dateStr = eventDate.toISOString().split("T")[0];
+      
+      const daySlot = contributor.dailyActivity.find((d) => d.date === dateStr);
+      if (daySlot) {
+        if (type === "pr_merged") daySlot.prsMerged++;
+        else if (type === "issue_closed") daySlot.issuesClosed++;
+        daySlot.score += pts;
+      }
+
+      const repo = repos[Math.floor(Math.random() * repos.length)];
+      const isPr = type.startsWith("pr_");
+      const baseTitle = isPr ? prTitles[Math.floor(Math.random() * prTitles.length)] : issueTitles[Math.floor(Math.random() * issueTitles.length)];
+      const title = baseTitle;
+      const itemNum = Math.floor(Math.random() * 280) + 1;
+      
+      contributor.contributions.push({
+        type,
+        title,
+        url: `https://github.com/${repo}/${isPr ? "pull" : "issues"}/${itemNum}`,
+        repo,
+        date: dateStr,
+        points: pts
+      });
+      contributor.score += pts;
+
+      // Simulate maintainer merging this PR (if it's a pr_merged)
+      if (type === "pr_merged" && Math.random() < 0.4 && usernames.length > 1) {
+        // Pick a different random user as the maintainer
+        let maintainerKey = usernames[Math.floor(Math.random() * usernames.length)];
+        while (maintainerKey === usernameKey) {
+          maintainerKey = usernames[Math.floor(Math.random() * usernames.length)];
+        }
+        
+        const maintainer = userMap.get(maintainerKey)!;
+        maintainer.prsMerged++;
+        maintainer.prsMergedScore += MERGE_PTS;
+        maintainer.score += MERGE_PTS;
+        
+        maintainer.contributions.push({
+          type: "pr_merged",
+          title: `Merged: ${title}`,
+          url: `https://github.com/${repo}/pull/${itemNum}`,
+          repo,
+          date: dateStr,
+          points: MERGE_PTS
+        });
+        
+        const maintainerDaySlot = maintainer.dailyActivity.find((d) => d.date === dateStr);
+        if (maintainerDaySlot) {
+          maintainerDaySlot.prsMerged++;
+          maintainerDaySlot.score += MERGE_PTS;
+        }
+      }
+    }
+  }
+
+  // 3. Finalize sorting and activity levels
+  const contributors = Array.from(userMap.values());
+  for (const c of contributors) {
+    c.contributions.sort((a, b) => b.date.localeCompare(a.date));
+    c.activityLevel = c.score >= config.thresholds.highActivity ? "High" : c.score >= config.thresholds.mediumActivity ? "Medium" : "Low";
+  }
+
   return contributors;
 }
 
@@ -490,17 +776,42 @@ async function fetchGithubTeams(config: YamlConfig, pool: TokenPool): Promise<{ 
   return githubTeams;
 }
 
+function loadEnv() {
+  const envPath = path.resolve(process.cwd(), ".env");
+  if (fs.existsSync(envPath)) {
+    const content = fs.readFileSync(envPath, "utf-8");
+    for (const line of content.split(/\r?\n/)) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith("#")) continue;
+      const firstEquals = trimmed.indexOf("=");
+      if (firstEquals !== -1) {
+        const key = trimmed.substring(0, firstEquals).trim();
+        const value = trimmed.substring(firstEquals + 1).trim().replace(/^['"]|['"]$/g, "");
+        process.env[key] = value;
+      }
+    }
+  }
+}
+
 // --------------- Main ---------------
 
 async function main(): Promise<void> {
+  loadEnv();
   console.log("🚀 Initializing Mergathon dashboard builder...");
   const config = loadConfig();
-  console.log(`🏷️  Scoring labels: ${JSON.stringify(config.scoringLabels)}`);
+  console.log(`🏷️  Scoring labels — closed: ${JSON.stringify(config.closedLabels)}, merged: ${JSON.stringify(config.mergedLabels)}`);
   let contributors: Contributor[] = [];
   let pool: TokenPool | null = null;
 
   try { pool = new TokenPool(); }
-  catch { console.log("💡 No GITHUB_TOKEN(s) configured. Running mock generator..."); contributors = generateMockData(config); }
+  catch {
+    console.warn("\n[MOCK MODE] ============================================================");
+    console.warn("[MOCK MODE] No GITHUB_TOKEN or GITHUB_TOKENS env var found.");
+    console.warn("[MOCK MODE] Data written to mergathon-data.json is SIMULATED, not real.");
+    console.warn("[MOCK MODE] Set GITHUB_TOKEN in .env.local and re-run to get live data.");
+    console.warn("[MOCK MODE] ============================================================\n");
+    contributors = generateMockData(config);
+  }
 
   if (pool) {
     try {
@@ -511,10 +822,15 @@ async function main(): Promise<void> {
 
     try {
       contributors = await fetchLiveContributors(config, pool);
-      console.log(`✅ Live data aggregated (${contributors.length} contributors).`);
+      console.log("\n[LIVE MODE] ============================================================");
+      console.log(`[LIVE MODE] Real GitHub data fetched. ${contributors.length} contributor(s) scored.`);
+      console.log("[LIVE MODE] ============================================================\n");
     } catch (err: any) {
       console.error("❌ Live fetch failed:", err.message);
-      console.log("🔄 Falling back to mock data.");
+      console.warn("\n[MOCK MODE] ============================================================");
+      console.warn("[MOCK MODE] Live GitHub fetch threw an error (see above).");
+      console.warn("[MOCK MODE] Data written to mergathon-data.json is SIMULATED, not real.");
+      console.warn("[MOCK MODE] ============================================================\n");
       contributors = generateMockData(config);
     }
   }
@@ -525,32 +841,16 @@ async function main(): Promise<void> {
       totalScore: members.reduce((s, m) => s + m.score, 0),
       totalPrsMerged: members.reduce((s, m) => s + m.prsMerged, 0),
       totalPrsOpened: members.reduce((s, m) => s + m.prsOpened, 0),
-      totalPrsReviewed: members.reduce((s, m) => s + m.prsReviewed, 0),
       totalIssuesClosed: members.reduce((s, m) => s + m.issuesClosed, 0),
       totalIssuesOpened: members.reduce((s, m) => s + m.issuesOpened, 0),
     };
   });
 
-  const independents = contributors.filter((c) => c.team === "Independent" && c.score > 0);
-  if (independents.length > 0) {
-    teams.push({
-      name: "Independent",
-      color: "#6b7280",
-      members: independents.map((c) => c.username),
-      totalScore: independents.reduce((s, m) => s + m.score, 0),
-      totalPrsMerged: independents.reduce((s, m) => s + m.prsMerged, 0),
-      totalPrsOpened: independents.reduce((s, m) => s + m.prsOpened, 0),
-      totalPrsReviewed: independents.reduce((s, m) => s + m.prsReviewed, 0),
-      totalIssuesClosed: independents.reduce((s, m) => s + m.issuesClosed, 0),
-      totalIssuesOpened: independents.reduce((s, m) => s + m.issuesOpened, 0),
-    });
-  }
-
   const dateMap = new Map<string, DailyActivity>();
   for (const c of contributors) {
     for (const d of c.dailyActivity) {
-      const e = dateMap.get(d.date) ?? { date: d.date, prsOpened: 0, prsMerged: 0, prsReviewed: 0, issuesOpened: 0, issuesClosed: 0, score: 0 };
-      e.prsOpened += d.prsOpened; e.prsMerged += d.prsMerged; e.prsReviewed += d.prsReviewed;
+      const e = dateMap.get(d.date) ?? { date: d.date, prsOpened: 0, prsMerged: 0, issuesOpened: 0, issuesClosed: 0, score: 0 };
+      e.prsOpened += d.prsOpened; e.prsMerged += d.prsMerged;
       e.issuesOpened += d.issuesOpened; e.issuesClosed += d.issuesClosed; e.score += d.score;
       dateMap.set(d.date, e);
     }
@@ -569,14 +869,15 @@ async function main(): Promise<void> {
     totalPrsOpened: contributors.reduce((s, c) => s + c.prsOpened, 0),
     totalIssuesClosed: contributors.reduce((s, c) => s + c.issuesClosed, 0),
     totalIssuesOpened: contributors.reduce((s, c) => s + c.issuesOpened, 0),
-    totalPrsReviewed: contributors.reduce((s, c) => s + c.prsReviewed, 0),
     daysElapsed, daysRemaining,
   };
+
+  const teamContributors = contributors.filter((c) => c.team !== "Independent");
 
   const data: MergathonData = {
     lastUpdated: new Date().toISOString(),
     eventStartDate: config.eventStartDate, eventEndDate: config.eventEndDate,
-    stats, teams, contributors: contributors.sort((a, b) => b.score - a.score), dailyTotals,
+    stats, teams, contributors: teamContributors.sort((a, b) => b.score - a.score), dailyTotals,
   };
 
   const outDir = path.resolve(__dirname, "..", "public", "data");

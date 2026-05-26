@@ -19,9 +19,13 @@ repositories:
 
 scoring:
   labels:
-    "meragathon:closed-outdated": 1
-    "meragathon:merged": 3
-    "meragathon:closed-taken-over": 5
+    closed:
+      "mergathon:closed-outdated": 1
+      "mergathon:closed-taken-over": 1
+      "mergathon:closed-invalid": 1
+    merged:
+      "mergathon:merged": 3
+      "mergathon:resolved-merged": 5
 
 thresholds:
   highActivity: 10
@@ -34,6 +38,15 @@ teams:
       - "ShinichiShi"
       - "naman79820"
       - "Asrani-Aman"
+      - "aryan7071"
+
+  - name: "CtrlAltDlt"
+    color: "#fb8b24"
+    members:
+      - "magic-peach"
+      - "Saniya-r-Shaikh"
+      - "aryanndwi123"
+      - "Harkeerat24"
 
   - name: "LGTM"
     color: "#8b5cf6"
@@ -51,10 +64,14 @@ teams:
       - "Aakansha-Chavan"
       - "yashikajotwani12"
 
-  - name: "X1"
+  - name: "Team 5"
     color: "#f59e0b"
     members:
       - "haaasini01"
+      - "chethanac15"
+      - "pranjaligoyal31"
+      - "Shahbaz898414"
+      - "PRATHAM2002-DS"
 
   - name: "Dart Vaders"
     color: "#f43f5e"
@@ -67,3 +84,4 @@ teams:
     color: "#06b6d4"
     members:
       - "092vk"
+      - "blazethunderstorm"

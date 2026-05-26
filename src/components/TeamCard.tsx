@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Team, Contributor } from "../types";
-import { GitPullRequest, CheckCircle2, MessageSquare, PlusCircle } from "lucide-react";
+import { GitPullRequest, CheckCircle2 } from "lucide-react";
 
 interface TeamCardProps {
   team: Team;
@@ -20,15 +20,15 @@ export default function TeamCard({ team, allContributors, totalScoreCombined }: 
     ? Math.round((team.totalScore / totalScoreCombined) * 100) 
     : 0;
 
-  // Get contributor details for team members to display their avatars
-  const memberContributors = allContributors.filter(c => 
-    team.members.includes(c.username)
-  );
+  // Build a lookup map so zero-contribution members still get an avatar
+  const contributorMap = new Map(allContributors.map(c => [c.username, c]));
 
   return (
     <div className={`card team-card ${teamClass}`}>
       <div className="team-header">
-        <h3 className="team-name">{team.name}</h3>
+        <Link href={`/teams/${encodeURIComponent(team.name)}`} style={{ textDecoration: "none" }}>
+          <h3 className="team-name clickable-team-title" style={{ transition: "color 0.2s" }}>{team.name}</h3>
+        </Link>
         <span className="team-score-badge">{team.totalScore} pts</span>
       </div>
 
@@ -39,13 +39,6 @@ export default function TeamCard({ team, allContributors, totalScoreCombined }: 
             <span>{team.totalPrsMerged}</span>
           </div>
           <div className="team-stat-label">Merged PRs</div>
-        </div>
-        <div className="team-stat">
-          <div className="team-stat-value" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "4px" }}>
-            <MessageSquare size={16} style={{ color: "var(--accent-cyan)" }} />
-            <span>{team.totalPrsReviewed}</span>
-          </div>
-          <div className="team-stat-label">Reviews</div>
         </div>
         <div className="team-stat">
           <div className="team-stat-value" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "4px" }}>
@@ -74,19 +67,41 @@ export default function TeamCard({ team, allContributors, totalScoreCombined }: 
           Members ({team.members.length})
         </span>
         <div className="avatar-stack">
-          {memberContributors.map((c) => (
-            <Link key={c.username} href={`/contributors/${c.username}`} title={c.username}>
-              <img 
-                src={c.avatarUrl} 
-                alt={c.username} 
-                className="avatar"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80`;
-                }}
-              />
-            </Link>
-          ))}
+          {team.members.map((username) => {
+            const contributor = contributorMap.get(username);
+            const avatarUrl = contributor?.avatarUrl ?? `https://avatars.githubusercontent.com/${username}`;
+            return (
+              <Link key={username} href={`/contributors/${username}`} title={username}>
+                <img
+                  src={avatarUrl}
+                  alt={username}
+                  className="avatar"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = `https://avatars.githubusercontent.com/${username}`;
+                  }}
+                />
+              </Link>
+            );
+          })}
         </div>
+      </div>
+
+      <div style={{ marginTop: "16px", paddingTop: "12px", borderTop: "1px solid var(--border-primary)", display: "flex", justifyContent: "flex-end" }}>
+        <Link 
+          href={`/teams/${encodeURIComponent(team.name)}`} 
+          style={{ 
+            fontSize: "12px", 
+            fontWeight: 700, 
+            color: team.color, 
+            textDecoration: "none", 
+            display: "inline-flex", 
+            alignItems: "center", 
+            gap: "4px" 
+          }}
+        >
+          <span>View Details</span>
+          <span>→</span>
+        </Link>
       </div>
     </div>
   );
