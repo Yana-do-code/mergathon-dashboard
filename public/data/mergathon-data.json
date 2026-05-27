@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T21:52:54.943Z",
+  "lastUpdated": "2026-05-27T23:17:28.687Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 27,
     "totalPrsMerged": 62,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 634,
+    "totalIssuesClosed": 635,
     "totalIssuesOpened": 0,
     "daysElapsed": 6,
     "daysRemaining": 4
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 245,
+      "totalScore": 246,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 200,
+      "totalIssuesClosed": 201,
       "totalIssuesOpened": 0
     },
     {
@@ -1887,10 +1887,10 @@
       "prsOpened": 0,
       "prsMerged": 5,
       "issuesOpened": 0,
-      "issuesClosed": 150,
-      "issuesPrClosedScore": 150,
+      "issuesClosed": 151,
+      "issuesPrClosedScore": 151,
       "prsMergedScore": 15,
-      "score": 165,
+      "score": 166,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -1938,8 +1938,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 2,
-          "score": 2
+          "issuesClosed": 3,
+          "score": 3
         },
         {
           "date": "2026-05-28",
@@ -1980,6 +1980,14 @@
           "title": "🐞 Bug",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/7428",
           "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "feat: Add client-side Yosys WASM synthesis for Tauri desktop builds",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1022",
+          "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-27",
           "points": 1
         },
@@ -6664,8 +6672,8 @@
       "prsOpened": 0,
       "prsMerged": 8,
       "issuesOpened": 0,
-      "issuesClosed": 180,
-      "score": 204
+      "issuesClosed": 181,
+      "score": 205
     },
     {
       "date": "2026-05-28",
