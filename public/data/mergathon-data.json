@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-28T20:36:09.403Z",
+  "lastUpdated": "2026-05-28T22:34:33.576Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 32,
     "totalPrsMerged": 86,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 877,
+    "totalIssuesClosed": 902,
     "totalIssuesOpened": 0,
     "daysElapsed": 7,
     "daysRemaining": 3
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 323,
+      "totalScore": 348,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 278,
+      "totalIssuesClosed": 303,
       "totalIssuesOpened": 0
     },
     {
@@ -125,10 +125,10 @@
       "prsOpened": 0,
       "prsMerged": 5,
       "issuesOpened": 0,
-      "issuesClosed": 228,
-      "issuesPrClosedScore": 228,
+      "issuesClosed": 253,
+      "issuesPrClosedScore": 253,
       "prsMergedScore": 15,
-      "score": 243,
+      "score": 268,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -184,8 +184,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 77,
-          "score": 77
+          "issuesClosed": 102,
+          "score": 102
         },
         {
           "date": "2026-05-29",
@@ -213,6 +213,14 @@
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Uncaught ReferenceError: logix_project_id is not defined",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6828",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
         {
           "type": "issue_closed",
           "title": "Fix Broken CI / CD ",
@@ -255,6 +263,46 @@
         },
         {
           "type": "issue_closed",
+          "title": "Fix TypeError when page param is not a hash in paginate",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7238",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Add deadline status indicators for assignments",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7231",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Add model-level validation for assignment deadline",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7228",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Validate assignment deadline to prevent past dates",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7221",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix: Handle Recaptcha API failures gracefully (502 / invalid JSON)  #7211",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7212",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "Fix spacing issue in assignments-submain-heading margin-top",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7210",
           "repo": "CircuitVerse/CircuitVerse",
@@ -273,6 +321,14 @@
           "type": "issue_closed",
           "title": "Fix percy clean",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7201",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: show 'No circuits found' message when search returns no results",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7198",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-28",
           "points": 1
@@ -327,6 +383,14 @@
         },
         {
           "type": "issue_closed",
+          "title": "fix(api): correct circuit_data unavailable error message",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7110",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "fix: align view button with project title by adding max-height (#4107)",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7098",
           "repo": "CircuitVerse/CircuitVerse",
@@ -337,6 +401,102 @@
           "type": "issue_closed",
           "title": "fix: add missing member_since_html translation for arabic (#6002)",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7090",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix partially highlighted text in Help dropdown (#2919)",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6901",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix active state highlight for landing page navbar",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6874",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix API documentation sidebar and content panel desynchronization",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6851",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: correct GitHub Actions conditional syntax in percy.yml",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6835",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix orphaned stars and grades when user is deleted",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6831",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix Docker build by adding default build arguments for mandatory variables",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6830",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fixed favicon not being displayed in production",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6827",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix MissingTemplate error in SimulatorController#new",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6816",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: prevent NoMethodError when project is nil",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6811",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix Help button to open correct documentation URLs for components",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6810",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: nil project pundit error",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6808",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: replace invalid jQuery ajax 'failure' callback with 'error'",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6807",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-28",
           "points": 1
@@ -367,8 +527,48 @@
         },
         {
           "type": "issue_closed",
+          "title": "feat: add validations to Collaboration model",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6653",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "test: add unit specs for Star model and notification callbacks",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6652",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "test: add unit tests for Project model view and fork logic",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6651",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix broken localhost Markdown link in .otel/README.md",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6628",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "docs: document generating VAPID API keys",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6625",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix(issue): Address issue #6564 - Feature : add a border outline in the search bar box",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6624",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-28",
           "points": 1
@@ -8624,8 +8824,8 @@
       "prsOpened": 0,
       "prsMerged": 24,
       "issuesOpened": 0,
-      "issuesClosed": 240,
-      "score": 312
+      "issuesClosed": 265,
+      "score": 337
     },
     {
       "date": "2026-05-29",
