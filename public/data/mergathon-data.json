@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-29T12:50:17.409Z",
+  "lastUpdated": "2026-05-29T16:44:40.568Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
-    "totalContributors": 35,
-    "totalPrsMerged": 100,
+    "totalContributors": 36,
+    "totalPrsMerged": 112,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 936,
+    "totalIssuesClosed": 943,
     "totalIssuesOpened": 0,
     "daysElapsed": 8,
     "daysRemaining": 2
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 315,
-      "totalPrsMerged": 23,
+      "totalScore": 338,
+      "totalPrsMerged": 29,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 246,
+      "totalIssuesClosed": 251,
       "totalIssuesOpened": 0
     },
     {
@@ -66,10 +66,10 @@
         "Aakansha-Chavan",
         "yashikajotwani12"
       ],
-      "totalScore": 63,
+      "totalScore": 64,
       "totalPrsMerged": 2,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 57,
+      "totalIssuesClosed": 58,
       "totalIssuesOpened": 0
     },
     {
@@ -4127,12 +4127,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 19,
+      "prsMerged": 24,
       "issuesOpened": 0,
-      "issuesClosed": 82,
-      "issuesPrClosedScore": 82,
-      "prsMergedScore": 57,
-      "score": 139,
+      "issuesClosed": 87,
+      "issuesPrClosedScore": 87,
+      "prsMergedScore": 72,
+      "score": 159,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4194,10 +4194,10 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 6,
+          "prsMerged": 11,
           "issuesOpened": 0,
-          "issuesClosed": 24,
-          "score": 42
+          "issuesClosed": 29,
+          "score": 62
         },
         {
           "date": "2026-05-30",
@@ -4219,6 +4219,22 @@
       "contributions": [
         {
           "type": "pr_merged",
+          "title": "Merged: build(deps): bump cv-frontend-vue from `0a1e288` to `2128705`",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7447",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump carrierwave from 3.1.2 to 3.1.3",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7431",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
           "title": "Merged: build(deps-dev): bump fast-uri from 3.1.0 to 3.1.2",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1062",
           "repo": "CircuitVerse/cv-frontend-vue",
@@ -4230,6 +4246,30 @@
           "title": "Merged: build(deps-dev): bump js-cookie from 3.0.5 to 3.0.7",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1061",
           "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump postcss from 8.4.49 to 8.5.14",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7366",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump @babel/plugin-transform-modules-systemjs from 7.25.9 to 7.29.4",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7351",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: make search icon keyboard accessible and auto-focus input on activation",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 3
         },
@@ -4264,6 +4304,22 @@
           "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-29",
           "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug : Search icon not focusable with Tab and focus not moving to search input",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6992",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Enhancement: Add hover-to-open functionality for \"Getting Started\" navbar dropdown",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6501",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
         },
         {
           "type": "issue_closed",
@@ -4318,6 +4374,22 @@
           "title": "Use of PNG files for Sponsor images on CircuitVerse home page footer. ",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/1370",
           "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Document common Windows setup pitfalls in setup guide",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6470",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix responsive layout issues in CTA section and  footer year",
+          "url": "https://github.com/CircuitVerse/Blog/pull/254",
+          "repo": "CircuitVerse/Blog",
           "date": "2026-05-29",
           "points": 1
         },
@@ -4454,6 +4526,14 @@
           "title": "refactor: ts in plotArea.js",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/478",
           "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix(#5231) Updated navbar collapse button not to hide content below it as it opens ",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5247",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 1
         },
@@ -6085,10 +6165,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 54,
-      "issuesPrClosedScore": 54,
+      "issuesClosed": 55,
+      "issuesPrClosedScore": 55,
       "prsMergedScore": 6,
-      "score": 60,
+      "score": 61,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -6152,8 +6232,8 @@
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
+          "issuesClosed": 1,
+          "score": 4
         },
         {
           "date": "2026-05-30",
@@ -6180,6 +6260,14 @@
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Adding standardized Issue & Pull Request Labeling System for CircuitVerseDocs",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/512",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-29",
+          "points": 1
         },
         {
           "type": "issue_closed",
@@ -6629,12 +6717,12 @@
       "profileUrl": "https://github.com/Harkeerat24",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 2,
+      "prsMerged": 3,
       "issuesOpened": 0,
       "issuesClosed": 47,
       "issuesPrClosedScore": 47,
-      "prsMergedScore": 6,
-      "score": 53,
+      "prsMergedScore": 9,
+      "score": 56,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -6696,10 +6784,10 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 0
+          "score": 3
         },
         {
           "date": "2026-05-30",
@@ -6719,6 +6807,14 @@
         }
       ],
       "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "fix: make search icon keyboard accessible and auto-focus input on activation",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
         {
           "type": "pr_merged",
           "title": "fix: auto-focus input field when modal dialog opens",
@@ -9126,10 +9222,10 @@
     {
       "date": "2026-05-29",
       "prsOpened": 0,
-      "prsMerged": 14,
+      "prsMerged": 26,
       "issuesOpened": 0,
-      "issuesClosed": 34,
-      "score": 76
+      "issuesClosed": 41,
+      "score": 119
     },
     {
       "date": "2026-05-30",
