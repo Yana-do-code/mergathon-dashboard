@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-29T00:11:43.254Z",
+  "lastUpdated": "2026-05-29T05:14:49.573Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 32,
     "totalPrsMerged": 86,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 904,
+    "totalIssuesClosed": 903,
     "totalIssuesOpened": 0,
     "daysElapsed": 8,
     "daysRemaining": 2
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 275,
+      "totalScore": 274,
       "totalPrsMerged": 17,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 224,
+      "totalIssuesClosed": 223,
       "totalIssuesOpened": 0
     },
     {
@@ -5163,10 +5163,10 @@
       "prsOpened": 0,
       "prsMerged": 13,
       "issuesOpened": 0,
-      "issuesClosed": 60,
-      "issuesPrClosedScore": 60,
+      "issuesClosed": 59,
+      "issuesPrClosedScore": 59,
       "prsMergedScore": 39,
-      "score": 99,
+      "score": 98,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -5222,8 +5222,8 @@
           "prsOpened": 0,
           "prsMerged": 11,
           "issuesOpened": 0,
-          "issuesClosed": 47,
-          "score": 80
+          "issuesClosed": 46,
+          "score": 79
         },
         {
           "date": "2026-05-29",
@@ -5535,14 +5535,6 @@
           "type": "issue_closed",
           "title": "refactored load.js to load.ts and added a new file loadScope.ts in types",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/460",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-28",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Mahmoodalisha/patch 79622",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/454",
           "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-28",
           "points": 1
@@ -8824,8 +8816,8 @@
       "prsOpened": 0,
       "prsMerged": 24,
       "issuesOpened": 0,
-      "issuesClosed": 267,
-      "score": 339
+      "issuesClosed": 266,
+      "score": 338
     },
     {
       "date": "2026-05-29",
