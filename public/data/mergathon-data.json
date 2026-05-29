@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-28T22:34:33.576Z",
+  "lastUpdated": "2026-05-29T00:11:43.254Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 32,
     "totalPrsMerged": 86,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 902,
+    "totalIssuesClosed": 904,
     "totalIssuesOpened": 0,
-    "daysElapsed": 7,
-    "daysRemaining": 3
+    "daysElapsed": 8,
+    "daysRemaining": 2
   },
   "teams": [
     {
@@ -8824,8 +8824,8 @@
       "prsOpened": 0,
       "prsMerged": 24,
       "issuesOpened": 0,
-      "issuesClosed": 265,
-      "score": 337
+      "issuesClosed": 267,
+      "score": 339
     },
     {
       "date": "2026-05-29",
