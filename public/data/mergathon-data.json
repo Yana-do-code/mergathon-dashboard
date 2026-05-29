@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-29T09:47:33.571Z",
+  "lastUpdated": "2026-05-29T12:50:17.409Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 35,
-    "totalPrsMerged": 96,
+    "totalPrsMerged": 100,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 924,
+    "totalIssuesClosed": 936,
     "totalIssuesOpened": 0,
     "daysElapsed": 8,
     "daysRemaining": 2
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 348,
+      "totalScore": 356,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 303,
+      "totalIssuesClosed": 311,
       "totalIssuesOpened": 0
     },
     {
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 307,
-      "totalPrsMerged": 21,
+      "totalScore": 315,
+      "totalPrsMerged": 23,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 244,
+      "totalIssuesClosed": 246,
       "totalIssuesOpened": 0
     },
     {
@@ -125,10 +125,10 @@
       "prsOpened": 0,
       "prsMerged": 5,
       "issuesOpened": 0,
-      "issuesClosed": 253,
-      "issuesPrClosedScore": 253,
+      "issuesClosed": 255,
+      "issuesPrClosedScore": 255,
       "prsMergedScore": 15,
-      "score": 268,
+      "score": 270,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -192,8 +192,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 2,
+          "score": 2
         },
         {
           "date": "2026-05-30",
@@ -213,6 +213,22 @@
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug: High Security Vulnerability",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/7437",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: update jwt gem to 2.10.3 to patch CVE-2026-45363",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7439",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
         {
           "type": "issue_closed",
           "title": "Uncaught ReferenceError: logix_project_id is not defined",
@@ -4111,12 +4127,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 17,
+      "prsMerged": 19,
       "issuesOpened": 0,
-      "issuesClosed": 80,
-      "issuesPrClosedScore": 80,
-      "prsMergedScore": 51,
-      "score": 131,
+      "issuesClosed": 82,
+      "issuesPrClosedScore": 82,
+      "prsMergedScore": 57,
+      "score": 139,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4178,10 +4194,10 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 4,
+          "prsMerged": 6,
           "issuesOpened": 0,
-          "issuesClosed": 22,
-          "score": 34
+          "issuesClosed": 24,
+          "score": 42
         },
         {
           "date": "2026-05-30",
@@ -4201,6 +4217,22 @@
         }
       ],
       "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps-dev): bump fast-uri from 3.1.0 to 3.1.2",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1062",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps-dev): bump js-cookie from 3.0.5 to 3.0.7",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1061",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 3
+        },
         {
           "type": "pr_merged",
           "title": "Merged: Refactor: Replace jQuery with Vue reactivity in OpenOffline.vue",
@@ -4269,6 +4301,22 @@
           "type": "issue_closed",
           "title": "Make Rectangle Resizable",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/1460",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "JK flipflop sometimes changes state with JK=00",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/1430",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Use of PNG files for Sponsor images on CircuitVerse home page footer. ",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/1370",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 1
@@ -8247,10 +8295,10 @@
       "prsOpened": 0,
       "prsMerged": 6,
       "issuesOpened": 0,
-      "issuesClosed": 7,
-      "issuesPrClosedScore": 7,
+      "issuesClosed": 13,
+      "issuesPrClosedScore": 13,
       "prsMergedScore": 18,
-      "score": 25,
+      "score": 31,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -8314,8 +8362,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 6,
+          "score": 6
         },
         {
           "date": "2026-05-30",
@@ -8335,6 +8383,54 @@
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "revamp: search input in dashboard",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3379",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "feat: infinite scroll feature in recent circuits section instead of pagination.",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3365",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Feat: weblate integration for continuous localization in CircuitVerse",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3357",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "VHDL Export",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3241",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "feat : show contributors' name on hover",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3050",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Add GDPR check functionality",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2058",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 1
+        },
         {
           "type": "pr_merged",
           "title": "Merged: Fix/search no results bugfix",
@@ -9030,10 +9126,10 @@
     {
       "date": "2026-05-29",
       "prsOpened": 0,
-      "prsMerged": 10,
+      "prsMerged": 14,
       "issuesOpened": 0,
-      "issuesClosed": 22,
-      "score": 52
+      "issuesClosed": 34,
+      "score": 76
     },
     {
       "date": "2026-05-30",
