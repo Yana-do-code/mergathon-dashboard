@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-29T16:44:40.568Z",
+  "lastUpdated": "2026-05-29T19:35:22.934Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 36,
-    "totalPrsMerged": 112,
+    "totalPrsMerged": 114,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 943,
+    "totalIssuesClosed": 955,
     "totalIssuesOpened": 0,
     "daysElapsed": 8,
     "daysRemaining": 2
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 338,
-      "totalPrsMerged": 29,
+      "totalScore": 343,
+      "totalPrsMerged": 30,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 251,
+      "totalIssuesClosed": 253,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 266,
+      "totalScore": 276,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 221,
+      "totalIssuesClosed": 231,
       "totalIssuesOpened": 0
     },
     {
@@ -2303,10 +2303,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 214,
-      "issuesPrClosedScore": 214,
+      "issuesClosed": 224,
+      "issuesPrClosedScore": 224,
       "prsMergedScore": 6,
-      "score": 220,
+      "score": 230,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2370,8 +2370,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 10,
+          "score": 10
         },
         {
           "date": "2026-05-30",
@@ -2391,6 +2391,86 @@
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Scroll-to-top button missing from Guidelines",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/666",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Docs: Add more content to decoders",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/442",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Restructure README.md",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/397",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Verilog Programming Language Introduction and Adding Verilog for every Sub-Circuit.",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/368",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "GSoD ideas for the book ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/270",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Flip flop State Table gives wrong results",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/142",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Edit contents of the Interactive book",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/80",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Flip flop conversion section missing",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/42",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "K map method",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/28",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Introduction of tags to lessons/chapters",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/26",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 1
+        },
         {
           "type": "issue_closed",
           "title": "Add documentation for Force Gate component",
@@ -4127,12 +4207,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 24,
+      "prsMerged": 25,
       "issuesOpened": 0,
       "issuesClosed": 87,
       "issuesPrClosedScore": 87,
-      "prsMergedScore": 72,
-      "score": 159,
+      "prsMergedScore": 75,
+      "score": 162,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4194,10 +4274,10 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 11,
+          "prsMerged": 12,
           "issuesOpened": 0,
           "issuesClosed": 29,
-          "score": 62
+          "score": 65
         },
         {
           "date": "2026-05-30",
@@ -4261,6 +4341,14 @@
           "type": "pr_merged",
           "title": "Merged: build(deps): bump @babel/plugin-transform-modules-systemjs from 7.25.9 to 7.29.4",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7351",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump fast-uri from 3.0.3 to 3.1.2",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7348",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 3
@@ -6719,10 +6807,10 @@
       "prsOpened": 0,
       "prsMerged": 3,
       "issuesOpened": 0,
-      "issuesClosed": 47,
-      "issuesPrClosedScore": 47,
+      "issuesClosed": 49,
+      "issuesPrClosedScore": 49,
       "prsMergedScore": 9,
-      "score": 56,
+      "score": 58,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -6786,8 +6874,8 @@
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
+          "issuesClosed": 2,
+          "score": 5
         },
         {
           "date": "2026-05-30",
@@ -6814,6 +6902,22 @@
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
           "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "UI Fix: UI inconsistency occurring because of default VUE icon",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/878",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "style: spacing fixed for import project box",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/879",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-29",
+          "points": 1
         },
         {
           "type": "pr_merged",
@@ -9222,10 +9326,10 @@
     {
       "date": "2026-05-29",
       "prsOpened": 0,
-      "prsMerged": 26,
+      "prsMerged": 28,
       "issuesOpened": 0,
-      "issuesClosed": 41,
-      "score": 119
+      "issuesClosed": 53,
+      "score": 137
     },
     {
       "date": "2026-05-30",
