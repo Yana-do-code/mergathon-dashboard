@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-30T11:20:51.548Z",
+  "lastUpdated": "2026-05-30T13:17:06.323Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 38,
     "totalPrsMerged": 122,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 989,
+    "totalIssuesClosed": 993,
     "totalIssuesOpened": 0,
     "daysElapsed": 9,
     "daysRemaining": 1
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 375,
+      "totalScore": 377,
       "totalPrsMerged": 35,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 270,
+      "totalIssuesClosed": 272,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 290,
+      "totalScore": 292,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 245,
+      "totalIssuesClosed": 247,
       "totalIssuesOpened": 0
     },
     {
@@ -2303,10 +2303,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 238,
-      "issuesPrClosedScore": 238,
+      "issuesClosed": 240,
+      "issuesPrClosedScore": 240,
       "prsMergedScore": 6,
-      "score": 244,
+      "score": 246,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2378,8 +2378,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 14,
-          "score": 14
+          "issuesClosed": 16,
+          "score": 16
         },
         {
           "date": "2026-05-31",
@@ -2465,6 +2465,14 @@
         },
         {
           "type": "issue_closed",
+          "title": "🐞 Bug copy & paste on Mobile Phone doesn't work",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3687",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "Update mouse event",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/3477",
           "repo": "CircuitVerse/CircuitVerse",
@@ -2500,6 +2508,14 @@
           "title": "Feature: Lock quiz after first answer and show correct option (#740)",
           "url": "https://github.com/CircuitVerse/Interactive-Book/pull/761",
           "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix(simulator): copy paste issue, fix copy paste issue for mobile devices",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/3692",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-30",
           "points": 1
         },
@@ -4321,10 +4337,10 @@
       "prsOpened": 0,
       "prsMerged": 29,
       "issuesOpened": 0,
-      "issuesClosed": 102,
-      "issuesPrClosedScore": 102,
+      "issuesClosed": 104,
+      "issuesPrClosedScore": 104,
       "prsMergedScore": 87,
-      "score": 189,
+      "score": 191,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4396,8 +4412,8 @@
           "prsOpened": 0,
           "prsMerged": 4,
           "issuesOpened": 0,
-          "issuesClosed": 15,
-          "score": 27
+          "issuesClosed": 17,
+          "score": 29
         },
         {
           "date": "2026-05-31",
@@ -4493,6 +4509,22 @@
           "type": "issue_closed",
           "title": "Disturbed position of password show/hide icon when sign up error occurs ",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/2603",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Made input bar corners as same as input fields in project properties box on simulator page.",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2751",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: adding group mentor as member",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2737",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-30",
           "points": 1
@@ -9648,8 +9680,8 @@
       "prsOpened": 0,
       "prsMerged": 8,
       "issuesOpened": 0,
-      "issuesClosed": 36,
-      "score": 60
+      "issuesClosed": 40,
+      "score": 64
     },
     {
       "date": "2026-05-31",
