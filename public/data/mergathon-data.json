@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-30T02:36:47.555Z",
+  "lastUpdated": "2026-05-30T06:24:28.049Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
-    "totalContributors": 36,
-    "totalPrsMerged": 114,
+    "totalContributors": 37,
+    "totalPrsMerged": 118,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 956,
+    "totalIssuesClosed": 962,
     "totalIssuesOpened": 0,
     "daysElapsed": 9,
     "daysRemaining": 1
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 343,
-      "totalPrsMerged": 30,
+      "totalScore": 353,
+      "totalPrsMerged": 32,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 253,
+      "totalIssuesClosed": 257,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 277,
+      "totalScore": 279,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 232,
+      "totalIssuesClosed": 234,
       "totalIssuesOpened": 0
     },
     {
@@ -2303,10 +2303,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 225,
-      "issuesPrClosedScore": 225,
+      "issuesClosed": 227,
+      "issuesPrClosedScore": 227,
       "prsMergedScore": 6,
-      "score": 231,
+      "score": 233,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2378,8 +2378,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
+          "issuesClosed": 3,
+          "score": 3
         },
         {
           "date": "2026-05-31",
@@ -2391,6 +2391,22 @@
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "On the sidebar , the search bar comes over the content when slided down.",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/360",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "adding footer",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/348",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-30",
+          "points": 1
+        },
         {
           "type": "issue_closed",
           "title": "Correction in Interactive-gates page",
@@ -4215,12 +4231,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 25,
+      "prsMerged": 27,
       "issuesOpened": 0,
-      "issuesClosed": 87,
-      "issuesPrClosedScore": 87,
-      "prsMergedScore": 75,
-      "score": 162,
+      "issuesClosed": 91,
+      "issuesPrClosedScore": 91,
+      "prsMergedScore": 81,
+      "score": 172,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4290,10 +4306,10 @@
         {
           "date": "2026-05-30",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 2,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 4,
+          "score": 10
         },
         {
           "date": "2026-05-31",
@@ -4305,6 +4321,54 @@
         }
       ],
       "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: docs: add common Windows/WSL setup pitfalls (closes #6469)",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7435",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: ensure consistent button styling and text alignment on auth pages",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5576",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Improve Windows setup documentation by documenting common pitfalls",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6469",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 UI Inconsistency: Misaligned \"Go to Login Page\" Text & Button Styling",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5500",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Auth Buttons inconsistent designs",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5498",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 In mobile view , On clicking navigation toggle button in navbar, it hides content below it as it opens ",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5231",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
         {
           "type": "pr_merged",
           "title": "Merged: build(deps): bump cv-frontend-vue from `0a1e288` to `2128705`",
@@ -9342,10 +9406,10 @@
     {
       "date": "2026-05-30",
       "prsOpened": 0,
-      "prsMerged": 0,
+      "prsMerged": 4,
       "issuesOpened": 0,
-      "issuesClosed": 1,
-      "score": 1
+      "issuesClosed": 7,
+      "score": 19
     },
     {
       "date": "2026-05-31",
