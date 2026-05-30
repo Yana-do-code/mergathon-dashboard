@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-30T18:05:07.994Z",
+  "lastUpdated": "2026-05-30T19:29:59.947Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 38,
-    "totalPrsMerged": 124,
+    "totalPrsMerged": 125,
     "totalPrsOpened": 0,
     "totalIssuesClosed": 1008,
     "totalIssuesOpened": 0,
@@ -51,8 +51,8 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 294,
-      "totalPrsMerged": 15,
+      "totalScore": 297,
+      "totalPrsMerged": 16,
       "totalPrsOpened": 0,
       "totalIssuesClosed": 249,
       "totalIssuesOpened": 0
@@ -7703,12 +7703,12 @@
       "profileUrl": "https://github.com/Nihal4777",
       "team": "LGTM",
       "prsOpened": 0,
-      "prsMerged": 13,
+      "prsMerged": 14,
       "issuesOpened": 0,
       "issuesClosed": 9,
       "issuesPrClosedScore": 9,
-      "prsMergedScore": 39,
-      "score": 48,
+      "prsMergedScore": 42,
+      "score": 51,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -7778,10 +7778,10 @@
         {
           "date": "2026-05-30",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 2,
-          "score": 2
+          "score": 5
         },
         {
           "date": "2026-05-31",
@@ -7793,6 +7793,14 @@
         }
       ],
       "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "fix(ci): bump jekyll-scholar to fix Jekyll build failure",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/792",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 3
+        },
         {
           "type": "issue_closed",
           "title": "A blank statement with the heading d should be removed ",
@@ -9758,10 +9766,10 @@
     {
       "date": "2026-05-30",
       "prsOpened": 0,
-      "prsMerged": 10,
+      "prsMerged": 11,
       "issuesOpened": 0,
       "issuesClosed": 55,
-      "score": 85
+      "score": 88
     },
     {
       "date": "2026-05-31",
