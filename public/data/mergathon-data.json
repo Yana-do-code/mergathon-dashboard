@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-30T06:24:28.049Z",
+  "lastUpdated": "2026-05-30T09:17:18.151Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 37,
     "totalPrsMerged": 118,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 962,
+    "totalIssuesClosed": 977,
     "totalIssuesOpened": 0,
     "daysElapsed": 9,
     "daysRemaining": 1
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 353,
+      "totalScore": 360,
       "totalPrsMerged": 32,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 257,
+      "totalIssuesClosed": 264,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 279,
+      "totalScore": 287,
       "totalPrsMerged": 15,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 234,
+      "totalIssuesClosed": 242,
       "totalIssuesOpened": 0
     },
     {
@@ -2303,10 +2303,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 227,
-      "issuesPrClosedScore": 227,
+      "issuesClosed": 235,
+      "issuesPrClosedScore": 235,
       "prsMergedScore": 6,
-      "score": 233,
+      "score": 241,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2378,8 +2378,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 3,
-          "score": 3
+          "issuesClosed": 11,
+          "score": 11
         },
         {
           "date": "2026-05-31",
@@ -2393,6 +2393,54 @@
       "contributions": [
         {
           "type": "issue_closed",
+          "title": "Fix inconsistent image scaling, caption alignment, and dark mode compatibility",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/503",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Empty statement is there",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/677",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Choosing 1st option at a time",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/676",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Footer content (copyright) should be in the center",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/674",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Bug: The dark mode and github button is not accessible for mobile view ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/668",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": " In learn documentation there is no transition delay on opening of sidebar 🐞 Bug",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/664",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "On the sidebar , the search bar comes over the content when slided down.",
           "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/360",
           "repo": "CircuitVerse/CircuitVerseDocs",
@@ -2404,6 +2452,22 @@
           "title": "adding footer",
           "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/348",
           "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "2-bit, 3-bit Addition examples are not given",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/614",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Feature to take notes in interactive book ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/609",
+          "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-30",
           "points": 1
         },
@@ -4233,10 +4297,10 @@
       "prsOpened": 0,
       "prsMerged": 27,
       "issuesOpened": 0,
-      "issuesClosed": 91,
-      "issuesPrClosedScore": 91,
+      "issuesClosed": 100,
+      "issuesPrClosedScore": 100,
       "prsMergedScore": 81,
-      "score": 172,
+      "score": 181,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4308,8 +4372,8 @@
           "prsOpened": 0,
           "prsMerged": 2,
           "issuesOpened": 0,
-          "issuesClosed": 4,
-          "score": 10
+          "issuesClosed": 13,
+          "score": 19
         },
         {
           "date": "2026-05-31",
@@ -4365,6 +4429,78 @@
           "type": "issue_closed",
           "title": "🐞 In mobile view , On clicking navigation toggle button in navbar, it hides content below it as it opens ",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5231",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Footer abnormal movement in empty groups",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/4806",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Disturbed position of password show/hide icon when sign up error occurs ",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/2603",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "adding border to the text box",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2711",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Updated user-details design",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2676",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "UI improvements for projects page",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2616",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Correct aliment of pagination Fixes #2497",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2613",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Corrected disturbed position of pagination in forums Fixes #2554",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2612",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "FullScreen on Preview Mode",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2611",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Corrected disturbed position of password show/hide icon which fixes #2603",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/2604",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-30",
           "points": 1
@@ -5275,10 +5411,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 117,
-      "issuesPrClosedScore": 117,
+      "issuesClosed": 115,
+      "issuesPrClosedScore": 115,
       "prsMergedScore": 6,
-      "score": 123,
+      "score": 121,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -5318,8 +5454,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 64,
-          "score": 64
+          "issuesClosed": 62,
+          "score": 62
         },
         {
           "date": "2026-05-27",
@@ -5845,14 +5981,6 @@
         },
         {
           "type": "issue_closed",
-          "title": "Fixed truth table input not visible in dark mode ",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/703",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
           "title": "build(deps): bump bootstrap from 4.6.2 to 5.0.0",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/379",
           "repo": "CircuitVerse/cv-frontend-vue",
@@ -5895,14 +6023,6 @@
           "type": "issue_closed",
           "title": "fix:Added transition for smooth closing of sidebar",
           "url": "https://github.com/CircuitVerse/Interactive-Book/pull/683",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Fixes #677 Empty statement is there",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/678",
           "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-26",
           "points": 1
@@ -9376,8 +9496,8 @@
       "prsOpened": 0,
       "prsMerged": 14,
       "issuesOpened": 0,
-      "issuesClosed": 184,
-      "score": 226
+      "issuesClosed": 182,
+      "score": 224
     },
     {
       "date": "2026-05-27",
@@ -9408,8 +9528,8 @@
       "prsOpened": 0,
       "prsMerged": 4,
       "issuesOpened": 0,
-      "issuesClosed": 7,
-      "score": 19
+      "issuesClosed": 24,
+      "score": 36
     },
     {
       "date": "2026-05-31",
