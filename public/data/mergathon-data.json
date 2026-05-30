@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-30T22:00:33.737Z",
+  "lastUpdated": "2026-05-30T22:55:34.072Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 40,
     "totalPrsMerged": 127,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 1042,
+    "totalIssuesClosed": 1045,
     "totalIssuesOpened": 0,
     "daysElapsed": 9,
     "daysRemaining": 1
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 303,
+      "totalScore": 306,
       "totalPrsMerged": 16,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 255,
+      "totalIssuesClosed": 258,
       "totalIssuesOpened": 0
     },
     {
@@ -9686,6 +9686,176 @@
       ]
     },
     {
+      "username": "Radhikaa-chauhan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148184013?u=de1430db320a3e5914b04b852c9a7bd0640077be&v=4",
+      "profileUrl": "https://github.com/Radhikaa-chauhan",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 0,
+      "issuesOpened": 0,
+      "issuesClosed": 9,
+      "issuesPrClosedScore": 9,
+      "prsMergedScore": 0,
+      "score": 9,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 9,
+          "score": 9
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Missing Ruby installation gudelines on local development setup ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/663",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: when we click in \"learn logic design \" sometimes it renders blue color bug",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/659",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "circuit element section is hideen",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/147",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Adding full name of binary number inventor",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/645",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Adding Live Workings in Content",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/605",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Color Bug in dark mode",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/575",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Simplifying top navigation",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/571",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Karnaugh Map doesn't take manual input",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/420",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "updated circuit element section",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/154",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Aakansha-Chavan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/181594189?u=270b81bb51eb0c73cc920d71dd586a149080cc57&v=4",
       "profileUrl": "https://github.com/Aakansha-Chavan",
@@ -9811,152 +9981,6 @@
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6079",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-26",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Radhikaa-chauhan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/148184013?u=de1430db320a3e5914b04b852c9a7bd0640077be&v=4",
-      "profileUrl": "https://github.com/Radhikaa-chauhan",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 0,
-      "issuesOpened": 0,
-      "issuesClosed": 6,
-      "issuesPrClosedScore": 6,
-      "prsMergedScore": 0,
-      "score": 6,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 6,
-          "score": 6
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "fix: when we click in \"learn logic design \" sometimes it renders blue color bug",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/659",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Adding full name of binary number inventor",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/645",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Adding Live Workings in Content",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/605",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Color Bug in dark mode",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/575",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Simplifying top navigation",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/571",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Karnaugh Map doesn't take manual input",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/420",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
           "points": 1
         }
       ]
@@ -10146,8 +10170,8 @@
       "prsOpened": 0,
       "prsMerged": 13,
       "issuesOpened": 0,
-      "issuesClosed": 90,
-      "score": 129
+      "issuesClosed": 93,
+      "score": 132
     },
     {
       "date": "2026-05-31",
