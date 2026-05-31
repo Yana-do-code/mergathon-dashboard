@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-31T18:01:30.840Z",
+  "lastUpdated": "2026-05-31T19:14:04.214Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
-    "totalContributors": 61,
-    "totalPrsMerged": 226,
+    "totalContributors": 65,
+    "totalPrsMerged": 242,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 1171,
+    "totalIssuesClosed": 1193,
     "totalIssuesOpened": 0,
     "daysElapsed": 10,
     "daysRemaining": 0
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 473,
-      "totalPrsMerged": 36,
+      "totalScore": 502,
+      "totalPrsMerged": 41,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 365,
+      "totalIssuesClosed": 379,
       "totalIssuesOpened": 0
     },
     {
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 463,
-      "totalPrsMerged": 49,
+      "totalScore": 474,
+      "totalPrsMerged": 51,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 316,
+      "totalIssuesClosed": 321,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 422,
-      "totalPrsMerged": 37,
+      "totalScore": 431,
+      "totalPrsMerged": 39,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 311,
+      "totalIssuesClosed": 314,
       "totalIssuesOpened": 0
     },
     {
@@ -125,10 +125,10 @@
       "prsOpened": 0,
       "prsMerged": 9,
       "issuesOpened": 0,
-      "issuesClosed": 280,
-      "issuesPrClosedScore": 280,
+      "issuesClosed": 291,
+      "issuesPrClosedScore": 291,
       "prsMergedScore": 27,
-      "score": 307,
+      "score": 318,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -208,8 +208,8 @@
           "prsOpened": 0,
           "prsMerged": 4,
           "issuesOpened": 0,
-          "issuesClosed": 4,
-          "score": 16
+          "issuesClosed": 15,
+          "score": 27
         }
       ],
       "contributions": [
@@ -247,6 +247,86 @@
         },
         {
           "type": "issue_closed",
+          "title": "Feature  Add preloader animation while the homepage loads",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/7144",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Feature Add subgroup within groups(Backend part)",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/7138",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "[UX] Make User Manual more discoverable via homepage and header navigation in the stimulater page",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6778",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug RailsAdmin Error on viewing Projects Panel",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6747",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Broken \"CircuitVerse Forum\" link in documentation footer leads to 404",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6669",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug: Favicon not showing on CircuitVerse main website",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6569",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Login with GitHub seems to be not working",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5125",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Changing redirect link for circuits made on vue simulator",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5057",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Dynamic Loading of version in simulatorvue action",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5055",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Feature to change password",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/4465",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "feat(avo): Add custom dashboard with admin statistics and metrics",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7154",
           "repo": "CircuitVerse/CircuitVerse",
@@ -257,6 +337,14 @@
           "type": "issue_closed",
           "title": "docs: improve grammar in README description",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7141",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: remove broken forum link from simulator",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6670",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
@@ -2533,12 +2621,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 43,
+      "prsMerged": 45,
       "issuesOpened": 0,
-      "issuesClosed": 142,
-      "issuesPrClosedScore": 142,
-      "prsMergedScore": 129,
-      "score": 271,
+      "issuesClosed": 146,
+      "issuesPrClosedScore": 146,
+      "prsMergedScore": 135,
+      "score": 281,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2616,10 +2704,10 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 13,
+          "prsMerged": 15,
           "issuesOpened": 0,
-          "issuesClosed": 30,
-          "score": 69
+          "issuesClosed": 34,
+          "score": 79
         }
       ],
       "contributions": [
@@ -2681,6 +2769,14 @@
         },
         {
           "type": "pr_merged",
+          "title": "Merged: issue-6522/fix-navbar-logo-alignment",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6524",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
           "title": "Merged: build(deps-dev): bump vite from 5.4.19 to 5.4.21",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6300",
           "repo": "CircuitVerse/CircuitVerse",
@@ -2699,6 +2795,14 @@
           "type": "pr_merged",
           "title": "Merged: build(deps): bump nokogiri from 1.18.8 to 1.18.9 in /docs",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5933",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump @babel/helpers from 7.26.0 to 7.29.7",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5567",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 3
@@ -2753,6 +2857,14 @@
         },
         {
           "type": "issue_closed",
+          "title": "🐞 Bug Navbar logo appears vertically misaligned on desktop and tablet viewports",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6522",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "🐞 Bug - User Dropdown in Navbar fails to close on second click",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6495",
           "repo": "CircuitVerse/CircuitVerse",
@@ -2777,8 +2889,24 @@
         },
         {
           "type": "issue_closed",
+          "title": "Search results are overlapping ",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/339",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "Replace x with trash or delete icon ",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/2585",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Support more units in clock time.",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/2190",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
@@ -2788,6 +2916,14 @@
           "title": "Contention Errors - Bug or Circuit Problem?",
           "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/132",
           "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps): bump avo from 3.31.0 to 3.31.2",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7335",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
         },
@@ -4113,10 +4249,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 259,
-      "issuesPrClosedScore": 259,
+      "issuesClosed": 260,
+      "issuesPrClosedScore": 260,
       "prsMergedScore": 6,
-      "score": 265,
+      "score": 266,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4196,8 +4332,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 19,
-          "score": 19
+          "issuesClosed": 20,
+          "score": 20
         }
       ],
       "contributions": [
@@ -4253,6 +4389,14 @@
           "type": "issue_closed",
           "title": "[Bug UI]: Inconsistent Editing Experience for Project Name in Navbar",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/289",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "[Feature] Allow project renaming directly from navbar ",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/276",
           "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-31",
           "points": 1
@@ -6297,12 +6441,12 @@
       "profileUrl": "https://github.com/Nihal4777",
       "team": "LGTM",
       "prsOpened": 0,
-      "prsMerged": 32,
+      "prsMerged": 33,
       "issuesOpened": 0,
-      "issuesClosed": 25,
-      "issuesPrClosedScore": 25,
-      "prsMergedScore": 96,
-      "score": 121,
+      "issuesClosed": 26,
+      "issuesPrClosedScore": 26,
+      "prsMergedScore": 99,
+      "score": 125,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -6380,10 +6524,10 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 18,
+          "prsMerged": 19,
           "issuesOpened": 0,
-          "issuesClosed": 16,
-          "score": 70
+          "issuesClosed": 17,
+          "score": 74
         }
       ],
       "contributions": [
@@ -6399,6 +6543,14 @@
           "type": "pr_merged",
           "title": "chore: bump jekyll-admin to fix jekyll serve",
           "url": "https://github.com/CircuitVerse/Interactive-Book/pull/793",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix: Add hover effect to sidebar navigation links",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/788",
           "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-31",
           "points": 3
@@ -6607,6 +6759,14 @@
           "type": "issue_closed",
           "title": "In encoding information the send button cursor should be a pointer.",
           "url": "https://github.com/CircuitVerse/Interactive-Book/issues/689",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "hover effect should be there ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/681",
           "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-31",
           "points": 1
@@ -7885,12 +8045,12 @@
       "profileUrl": "https://github.com/Asrani-Aman",
       "team": "NasaVerse",
       "prsOpened": 0,
-      "prsMerged": 20,
+      "prsMerged": 25,
       "issuesOpened": 0,
-      "issuesClosed": 41,
-      "issuesPrClosedScore": 41,
-      "prsMergedScore": 60,
-      "score": 101,
+      "issuesClosed": 44,
+      "issuesPrClosedScore": 44,
+      "prsMergedScore": 75,
+      "score": 119,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -7968,10 +8128,10 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 14,
+          "prsMerged": 19,
           "issuesOpened": 0,
-          "issuesClosed": 28,
-          "score": 70
+          "issuesClosed": 31,
+          "score": 88
         }
       ],
       "contributions": [
@@ -8004,6 +8164,14 @@
           "title": "Merged: fix(flip-flops): resolve inconsistent latch vs flip-flop concepts",
           "url": "https://github.com/CircuitVerse/Interactive-Book/pull/777",
           "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump activesupport from 6.1.7.3 to 7.2.3.1 in /docs",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7209",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 3
         },
@@ -8073,8 +8241,40 @@
         },
         {
           "type": "pr_merged",
+          "title": "Merged: Fix: Uncaught ReferenceError logix_project_id is not defined for guest users",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6666",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: docs: fix testing commands, priority labels, and grammar in CONTRIBUTING.md",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6646",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Improve tags page clear filter UI",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6618",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
           "title": "Merged: fix: arabic navigation bar",
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6006",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix: translation for Member since in Arabic",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6005",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 3
@@ -8145,8 +8345,24 @@
         },
         {
           "type": "issue_closed",
+          "title": "Tag filter state is not clearly indicated and cannot be easily cleared",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6617",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
           "title": "Notifications not properly visible on clicking notfication bell icon on Home page for arabic language",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6003",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Missing translation for \"Member since\" for arabic language on User dashboard",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/6002",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
@@ -8163,6 +8379,14 @@
           "type": "issue_closed",
           "title": "Migrate Navbar to View Component and Revamp UI",
           "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5804",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug logix_project_id is not defined in Simulator",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/5539",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
@@ -8473,10 +8697,10 @@
       "prsOpened": 0,
       "prsMerged": 4,
       "issuesOpened": 0,
-      "issuesClosed": 59,
-      "issuesPrClosedScore": 59,
+      "issuesClosed": 60,
+      "issuesPrClosedScore": 60,
       "prsMergedScore": 12,
-      "score": 71,
+      "score": 72,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -8556,8 +8780,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 7,
-          "score": 7
+          "issuesClosed": 8,
+          "score": 8
         }
       ],
       "contributions": [
@@ -8614,6 +8838,14 @@
           "title": "fix(ui): prevent ElementsPanel from being dragged under Navbar (#260)",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/691",
           "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "improve text contrast for inactive tabs in dark mode",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/374",
+          "repo": "CircuitVerse/mobile-app",
           "date": "2026-05-31",
           "points": 1
         },
@@ -11280,6 +11512,136 @@
       ]
     },
     {
+      "username": "SouparnaChatterjee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115988950?u=7dfd8bc4d74ccf6e6959dcffc2e06f5702a1e9c3&v=4",
+      "profileUrl": "https://github.com/SouparnaChatterjee",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 3,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 9,
+      "score": 10,
+      "activityLevel": "High",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 3,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 10
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Fix: Sidebar expander arrow should be cursor pointer",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/794",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix: Add hover effect to sidebar navigation links",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/788",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix: Sticky main header for persistent access while scrolling",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/787",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix: Make sidebar bullet markers clickable",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/789",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "aryan7071",
       "avatarUrl": "https://avatars.githubusercontent.com/u/175052103?u=f62d36e84bc7c17026fca91206abb8e26b5f7b4b&v=4",
       "profileUrl": "https://github.com/aryan7071",
@@ -11397,120 +11759,6 @@
           "url": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
           "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-24",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "SouparnaChatterjee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115988950?u=7dfd8bc4d74ccf6e6959dcffc2e06f5702a1e9c3&v=4",
-      "profileUrl": "https://github.com/SouparnaChatterjee",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 2,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 6,
-      "score": 6,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 2,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 6
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Fix: Sidebar expander arrow should be cursor pointer",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/794",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-31",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix: Sticky main header for persistent access while scrolling",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/787",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-31",
           "points": 3
         }
       ]
@@ -11820,10 +12068,10 @@
     {
       "date": "2026-05-31",
       "prsOpened": 0,
-      "prsMerged": 99,
+      "prsMerged": 115,
       "issuesOpened": 0,
-      "issuesClosed": 127,
-      "score": 424
+      "issuesClosed": 149,
+      "score": 494
     }
   ]
 }
