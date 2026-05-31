@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-31T03:31:13.107Z",
+  "lastUpdated": "2026-05-31T07:45:33.206Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
-    "totalContributors": 40,
-    "totalPrsMerged": 127,
+    "totalContributors": 43,
+    "totalPrsMerged": 148,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 1046,
+    "totalIssuesClosed": 1071,
     "totalIssuesOpened": 0,
     "daysElapsed": 10,
     "daysRemaining": 0
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 387,
-      "totalPrsMerged": 36,
+      "totalScore": 404,
+      "totalPrsMerged": 40,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 279,
+      "totalIssuesClosed": 284,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 307,
-      "totalPrsMerged": 16,
+      "totalScore": 345,
+      "totalPrsMerged": 22,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 259,
+      "totalIssuesClosed": 279,
       "totalIssuesOpened": 0
     },
     {
@@ -2479,10 +2479,10 @@
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
-      "issuesClosed": 240,
-      "issuesPrClosedScore": 240,
+      "issuesClosed": 241,
+      "issuesPrClosedScore": 241,
       "prsMergedScore": 6,
-      "score": 246,
+      "score": 247,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -2562,11 +2562,19 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 1,
+          "score": 1
         }
       ],
       "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "fix: restore Boolean Table toggling and fix circuit generation errors",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/617",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
         {
           "type": "issue_closed",
           "title": "Fix inconsistent image scaling, caption alignment, and dark mode compatibility",
@@ -4511,12 +4519,12 @@
       "profileUrl": "https://github.com/aryanndwi123",
       "team": "CtrlAltDlt",
       "prsOpened": 0,
-      "prsMerged": 30,
+      "prsMerged": 34,
       "issuesOpened": 0,
-      "issuesClosed": 112,
-      "issuesPrClosedScore": 112,
-      "prsMergedScore": 90,
-      "score": 202,
+      "issuesClosed": 117,
+      "issuesPrClosedScore": 117,
+      "prsMergedScore": 102,
+      "score": 219,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -4594,13 +4602,85 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 4,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 5,
+          "score": 17
         }
       ],
       "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps-dev): bump vite from 5.4.19 to 5.4.21",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6300",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps-dev): bump playwright from 1.55.0 to 1.55.1",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6299",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump nokogiri from 1.18.8 to 1.18.9 in /docs",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5933",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: build(deps): bump @babel/runtime from 7.26.0 to 7.26.10",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5566",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps): bump lodash from 4.17.21 to 4.17.23",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6705",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps): bump rexml from 3.3.9 to 3.4.2 in /docs",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6069",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps): bump font-awesome-sass from 5.13.1 to 6.7.2",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5971",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps-dev): bump vite from 5.4.19 to 7.1.1",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5968",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "build(deps): bump http from 4.4.0 to 5.3.1",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/5967",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-31",
+          "points": 1
+        },
         {
           "type": "pr_merged",
           "title": "Merged: fix: use strict equality in circuit selection",
@@ -6774,6 +6854,360 @@
       ]
     },
     {
+      "username": "Nihal4777",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
+      "profileUrl": "https://github.com/Nihal4777",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 20,
+      "issuesOpened": 0,
+      "issuesClosed": 12,
+      "issuesPrClosedScore": 12,
+      "prsMergedScore": 60,
+      "score": 72,
+      "activityLevel": "High",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 8,
+          "issuesOpened": 0,
+          "issuesClosed": 2,
+          "score": 26
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 2,
+          "score": 8
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 2,
+          "score": 5
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 6,
+          "issuesOpened": 0,
+          "issuesClosed": 3,
+          "score": 21
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "chore: bump jekyll-admin to fix jekyll serve",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/793",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: feat: add icons to dark mode toggle button",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/783",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Bump nokogiri from 1.18.9 to 1.19.3",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/781",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Bump rack-session from 2.1.1 to 2.1.2",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/779",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fixed truth table input not visible in dark mode ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/703",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: (Fix #689): change the cursor from arrow to pointer in send button.",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/690",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Add icons for Dark mode and GitHub buttons in header",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/782",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Input in truth table generator should be not visible again ( #631 it fix  bug that time but now same problem with input not visible) ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/701",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "In encoding information the send button cursor should be a pointer.",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/689",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "fix(ci): bump jekyll-scholar to fix Jekyll build failure",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/792",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "A blank statement with the heading d should be removed ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/660",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix: Remove blank statement d from Workflow section in Contributing Guidelines",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/790",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix Verilog UI resize bugs: preservation, visibility, and console errors",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/881",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug: Verilog Editor Instability, Code Loss & Layout Corruption on Window Resize",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/880",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Markdown Syntax Bug in ROM Microcontrollers",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/759",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: increase all gate embed sizes for better readability",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/510",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-26",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "AND gate circuit diagram appears too small to read",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/509",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-26",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fixed typos in Docs",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/765",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: docs: fix information wording in lms integration guide",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/524",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: docs: fix keyboard shortcut spelling in chapter docs",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/520",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: remove debug console.log from promptSave function",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6793",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: correct typo in subcircuit comments",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6792",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: update copyright year from 2025 to 2026 on About page",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/755",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix broken internal link to K-Maps in canonical.md",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/731",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Corrected the 8:1 MUX Truth Table.md",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/700",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "docs: fix information wording in lms integration guide",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/523",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "docs: fix keyboard shortcut spelling in chapter 8 and chapter 9 docs",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/519",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: fix: resolve sass deprecation and vue html warning issues",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1057",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-24",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Fix: Fix deprecated API and Sass related warnings and errors",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1051",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-24",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Help button not opening docs in desktop app",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/911",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-23",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞Bug: “Help” button does not work for any circuit element in Tauri app",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/910",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-23",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Yana-do-code",
       "avatarUrl": "https://avatars.githubusercontent.com/u/173885830?v=4",
       "profileUrl": "https://github.com/Yana-do-code",
@@ -7926,288 +8360,6 @@
           "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-26",
           "points": 3
-        }
-      ]
-    },
-    {
-      "username": "Nihal4777",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
-      "profileUrl": "https://github.com/Nihal4777",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 14,
-      "issuesOpened": 0,
-      "issuesClosed": 9,
-      "issuesPrClosedScore": 9,
-      "prsMergedScore": 42,
-      "score": 51,
-      "activityLevel": "High",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 4
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 4
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 8,
-          "issuesOpened": 0,
-          "issuesClosed": 2,
-          "score": 26
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 4
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 2,
-          "issuesOpened": 0,
-          "issuesClosed": 2,
-          "score": 8
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 2,
-          "score": 5
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "fix(ci): bump jekyll-scholar to fix Jekyll build failure",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/792",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "A blank statement with the heading d should be removed ",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/660",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Fix: Remove blank statement d from Workflow section in Contributing Guidelines",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/790",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-27",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix Verilog UI resize bugs: preservation, visibility, and console errors",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/881",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-27",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "🐞 Bug: Verilog Editor Instability, Code Loss & Layout Corruption on Window Resize",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/880",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-27",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Markdown Syntax Bug in ROM Microcontrollers",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/759",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-27",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: fix: increase all gate embed sizes for better readability",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/510",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-26",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "AND gate circuit diagram appears too small to read",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/509",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fixed typos in Docs",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/765",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: docs: fix information wording in lms integration guide",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/524",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: docs: fix keyboard shortcut spelling in chapter docs",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/520",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: fix: remove debug console.log from promptSave function",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6793",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: fix: correct typo in subcircuit comments",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/6792",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: update copyright year from 2025 to 2026 on About page",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/755",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix broken internal link to K-Maps in canonical.md",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/731",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Corrected the 8:1 MUX Truth Table.md",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/700",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "docs: fix information wording in lms integration guide",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/523",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "docs: fix keyboard shortcut spelling in chapter 8 and chapter 9 docs",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/519",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: fix: resolve sass deprecation and vue html warning issues",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1057",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-24",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Fix: Fix deprecated API and Sass related warnings and errors",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1051",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-24",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Help button not opening docs in desktop app",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/911",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-23",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "🐞Bug: “Help” button does not work for any circuit element in Tauri app",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/910",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-23",
-          "points": 1
         }
       ]
     },
@@ -9378,6 +9530,312 @@
       ]
     },
     {
+      "username": "Radhikaa-chauhan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148184013?u=de1430db320a3e5914b04b852c9a7bd0640077be&v=4",
+      "profileUrl": "https://github.com/Radhikaa-chauhan",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 0,
+      "issuesOpened": 0,
+      "issuesClosed": 26,
+      "issuesPrClosedScore": 26,
+      "prsMergedScore": 0,
+      "score": 26,
+      "activityLevel": "High",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 10,
+          "score": 10
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 16,
+          "score": 16
+        }
+      ],
+      "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Feature: Javascript to Typescript conversion in the src folder",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/661",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Testing of the Verilog Code editor",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/563",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: convert listeners.js to listeners.ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/883",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: convert Clock.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/802",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate node.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/707",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate restrictedElementDiv.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/705",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate canvasApi.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/694",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate verilogHelpers.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/693",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor:converted sequential.ts to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/682",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "convert moduleSetup.js to TypeScript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/674",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: tutorial.js and sequential.js to typescript",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/665",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor:minimap.js to ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/664",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "changed the embedListeners.js to embedListeners.ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/663",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Refactor: canvas migration from js to ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/662",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate modules.js to TypeScript as modules.ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/602",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "refactor: migrate i18n.js to TypeScript as i18n.ts",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/601",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "🐞 Bug ( optimzation ) : Testbench driver location",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/420",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Missing Ruby installation gudelines on local development setup ",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/663",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "fix: when we click in \"learn logic design \" sometimes it renders blue color bug",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/659",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "circuit element section is hideen",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/147",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Adding full name of binary number inventor",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/645",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Adding Live Workings in Content",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/605",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Color Bug in dark mode",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/575",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Simplifying top navigation",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/571",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Karnaugh Map doesn't take manual input",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/420",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "updated circuit element section",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/154",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "JatsuAkaYashvant",
       "avatarUrl": "https://avatars.githubusercontent.com/u/146776812?u=cc4172c883c25226bcae3cfe615e81f336f8e4cf&v=4",
       "profileUrl": "https://github.com/JatsuAkaYashvant",
@@ -9559,184 +10017,6 @@
           "url": "https://github.com/CircuitVerse/mobile-app/pull/76",
           "repo": "CircuitVerse/mobile-app",
           "date": "2026-05-25",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Radhikaa-chauhan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/148184013?u=de1430db320a3e5914b04b852c9a7bd0640077be&v=4",
-      "profileUrl": "https://github.com/Radhikaa-chauhan",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 0,
-      "issuesOpened": 0,
-      "issuesClosed": 10,
-      "issuesPrClosedScore": 10,
-      "prsMergedScore": 0,
-      "score": 10,
-      "activityLevel": "High",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 10,
-          "score": 10
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "🐞 Bug ( optimzation ) : Testbench driver location",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/420",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Missing Ruby installation gudelines on local development setup ",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/663",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "fix: when we click in \"learn logic design \" sometimes it renders blue color bug",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/659",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "circuit element section is hideen",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/147",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Adding full name of binary number inventor",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/645",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Adding Live Workings in Content",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/605",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Color Bug in dark mode",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/575",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Simplifying top navigation",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/571",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Karnaugh Map doesn't take manual input",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/420",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "updated circuit element section",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/154",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-30",
           "points": 1
         }
       ]
@@ -10184,10 +10464,10 @@
     {
       "date": "2026-05-31",
       "prsOpened": 0,
-      "prsMerged": 0,
+      "prsMerged": 21,
       "issuesOpened": 0,
-      "issuesClosed": 0,
-      "score": 0
+      "issuesClosed": 25,
+      "score": 88
     }
   ]
 }
