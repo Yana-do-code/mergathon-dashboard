@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-23T13:45:57.483Z",
+  "lastUpdated": "2026-07-23T15:55:48.078Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 65,
     "totalPrsMerged": 242,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 1193,
+    "totalIssuesClosed": 1192,
     "totalIssuesOpened": 0,
     "daysElapsed": 10,
     "daysRemaining": 0
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 502,
+      "totalScore": 501,
       "totalPrsMerged": 41,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 379,
+      "totalIssuesClosed": 378,
       "totalIssuesOpened": 0
     },
     {
@@ -9917,10 +9917,10 @@
       "prsOpened": 0,
       "prsMerged": 4,
       "issuesOpened": 0,
-      "issuesClosed": 44,
-      "issuesPrClosedScore": 44,
+      "issuesClosed": 43,
+      "issuesPrClosedScore": 43,
       "prsMergedScore": 12,
-      "score": 56,
+      "score": 55,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -9968,8 +9968,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 19,
-          "score": 19
+          "issuesClosed": 18,
+          "score": 18
         },
         {
           "date": "2026-05-28",
@@ -10097,14 +10097,6 @@
           "type": "issue_closed",
           "title": "🐞 Bug: [Tauri] All HTTP API requests fail silently due to @tauri-apps/plugin-http streaming incompatibility",
           "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/968",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-27",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "🐞 Bug: listeners.js throwing transformCallback undefined errors across all platforms",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/950",
           "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-27",
           "points": 1
@@ -12038,8 +12030,8 @@
       "prsOpened": 0,
       "prsMerged": 8,
       "issuesOpened": 0,
-      "issuesClosed": 183,
-      "score": 207
+      "issuesClosed": 182,
+      "score": 206
     },
     {
       "date": "2026-05-28",
