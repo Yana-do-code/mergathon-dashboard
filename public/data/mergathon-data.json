@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-13T17:03:42.094Z",
+  "lastUpdated": "2026-11-13T22:29:36.257Z",
   "eventStartDate": "2026-05-22",
   "eventEndDate": "2026-05-31",
   "stats": {
     "totalContributors": 26,
-    "totalPrsMerged": 52,
+    "totalPrsMerged": 60,
     "totalPrsOpened": 0,
-    "totalIssuesClosed": 29,
+    "totalIssuesClosed": 30,
     "totalIssuesOpened": 0,
     "daysElapsed": 10,
     "daysRemaining": 0
@@ -21,10 +21,10 @@
         "Asrani-Aman",
         "aryan7071"
       ],
-      "totalScore": 64,
-      "totalPrsMerged": 16,
+      "totalScore": 77,
+      "totalPrsMerged": 21,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 16,
+      "totalIssuesClosed": 14,
       "totalIssuesOpened": 0
     },
     {
@@ -36,10 +36,10 @@
         "aryanndwi123",
         "Harkeerat24"
       ],
-      "totalScore": 20,
-      "totalPrsMerged": 5,
+      "totalScore": 33,
+      "totalPrsMerged": 10,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 5,
+      "totalIssuesClosed": 3,
       "totalIssuesOpened": 0
     },
     {
@@ -51,10 +51,10 @@
         "Radhikaa-chauhan",
         "SouparnaChatterjee"
       ],
-      "totalScore": 26,
-      "totalPrsMerged": 8,
+      "totalScore": 18,
+      "totalPrsMerged": 6,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 2,
+      "totalIssuesClosed": 0,
       "totalIssuesOpened": 0
     },
     {
@@ -66,10 +66,10 @@
         "Aakansha-Chavan",
         "yashikajotwani12"
       ],
-      "totalScore": 25,
-      "totalPrsMerged": 8,
+      "totalScore": 23,
+      "totalPrsMerged": 7,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 1,
+      "totalIssuesClosed": 2,
       "totalIssuesOpened": 0
     },
     {
@@ -82,10 +82,10 @@
         "Shahbaz898414",
         "PRATHAM2002-DS"
       ],
-      "totalScore": 21,
-      "totalPrsMerged": 6,
+      "totalScore": 29,
+      "totalPrsMerged": 8,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 3,
+      "totalIssuesClosed": 5,
       "totalIssuesOpened": 0
     },
     {
@@ -96,10 +96,10 @@
         "JatsuAkaYashvant",
         "hardik17771"
       ],
-      "totalScore": 19,
-      "totalPrsMerged": 6,
+      "totalScore": 18,
+      "totalPrsMerged": 5,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 1,
+      "totalIssuesClosed": 3,
       "totalIssuesOpened": 0
     },
     {
@@ -109,26 +109,26 @@
         "092vk",
         "blazethunderstorm"
       ],
-      "totalScore": 10,
+      "totalScore": 12,
       "totalPrsMerged": 3,
       "totalPrsOpened": 0,
-      "totalIssuesClosed": 1,
+      "totalIssuesClosed": 3,
       "totalIssuesOpened": 0
     }
   ],
   "contributors": [
     {
-      "username": "ShinichiShi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4649347?v=4",
-      "profileUrl": "https://github.com/ShinichiShi",
+      "username": "naman79820",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761315?v=4",
+      "profileUrl": "https://github.com/naman79820",
       "team": "NasaVerse",
       "prsOpened": 0,
-      "prsMerged": 5,
+      "prsMerged": 9,
       "issuesOpened": 0,
-      "issuesClosed": 9,
-      "issuesPrClosedScore": 9,
-      "prsMergedScore": 15,
-      "score": 24,
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 27,
+      "score": 29,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -136,24 +136,210 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-23",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 2,
-          "score": 2
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 7
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-28",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 1,
           "score": 1
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 3,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 9
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Blog/pull/107",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix simulator canvas rendering",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/8",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Upgrade Next.js dependencies",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/213",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add PDF/PNG export support",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/180",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "API endpoints timeout on deep feeds",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/114",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/139",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Add keyboard map guides",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/49",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-26",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/170",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-26",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Refactor sequential logic",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/63",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-26",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix simulator canvas rendering",
+          "url": "https://github.com/CircuitVerse/Blog/pull/113",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix touch viewport bugs",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/249",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-24",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "ShinichiShi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5111562?v=4",
+      "profileUrl": "https://github.com/ShinichiShi",
+      "team": "NasaVerse",
+      "prsOpened": 0,
+      "prsMerged": 6,
+      "issuesOpened": 0,
+      "issuesClosed": 6,
+      "issuesPrClosedScore": 6,
+      "prsMergedScore": 18,
+      "score": 24,
+      "activityLevel": "High",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 7
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
         },
         {
           "date": "2026-05-25",
@@ -168,8 +354,8 @@
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 4
+          "issuesClosed": 0,
+          "score": 3
         },
         {
           "date": "2026-05-27",
@@ -184,8 +370,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 1,
+          "score": 1
         },
         {
           "date": "2026-05-29",
@@ -198,147 +384,131 @@
         {
           "date": "2026-05-30",
           "prsOpened": 0,
-          "prsMerged": 2,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 6
+          "score": 0
         },
         {
           "date": "2026-05-31",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
+          "issuesClosed": 0,
+          "score": 0
         }
       ],
       "contributions": [
         {
-          "type": "issue_closed",
-          "title": "Subcircuit inputs fail state updates",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/12",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-31",
-          "points": 1
-        },
-        {
           "type": "pr_merged",
-          "title": "Optimize truth table generation",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/97",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/124",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Upgrade Next.js dependencies",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/235",
-          "repo": "CircuitVerse/cv-frontend-vue",
+          "title": "Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/200",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Subcircuit inputs fail state updates",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/153",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-29",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Add dark mode support",
-          "url": "https://github.com/CircuitVerse/Blog/pull/231",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-27",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Full-screen mode overlaps panels",
-          "url": "https://github.com/CircuitVerse/Blog/issues/44",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-27",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Add keyboard map guides",
-          "url": "https://github.com/CircuitVerse/Blog/issues/218",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-27",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/220",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/60",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-26",
           "points": 3
         },
         {
           "type": "issue_closed",
           "title": "Touch gate drag snaps misaligned",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/69",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/234",
           "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-24",
+          "date": "2026-05-29",
           "points": 1
         },
         {
           "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/173",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-23",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/65",
+          "title": "Add keyboard map guides",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/62",
           "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-23",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/181",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Subcircuit inputs fail state updates",
+          "url": "https://github.com/CircuitVerse/Blog/issues/87",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-27",
           "points": 1
         },
         {
           "type": "issue_closed",
           "title": "Full-screen mode overlaps panels",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/179",
-          "repo": "CircuitVerse/Interactive-Book",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/128",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/270",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-26",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/121",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-24",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Subcircuit inputs fail state updates",
+          "url": "https://github.com/CircuitVerse/Blog/issues/197",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-24",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Subcircuit inputs fail state updates",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/130",
+          "repo": "CircuitVerse/cv-frontend-vue",
           "date": "2026-05-22",
           "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Implement search filtration",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/72",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-22",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add dark mode support",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/68",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-22",
+          "points": 3
         }
       ]
     },
     {
-      "username": "naman79820",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5080117?v=4",
-      "profileUrl": "https://github.com/naman79820",
+      "username": "Asrani-Aman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4347216?v=4",
+      "profileUrl": "https://github.com/Asrani-Aman",
       "team": "NasaVerse",
       "prsOpened": 0,
-      "prsMerged": 5,
+      "prsMerged": 3,
       "issuesOpened": 0,
       "issuesClosed": 4,
       "issuesPrClosedScore": 4,
-      "prsMergedScore": 15,
-      "score": 19,
+      "prsMergedScore": 9,
+      "score": 13,
       "activityLevel": "High",
       "dailyActivity": [
         {
@@ -346,8 +516,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-23",
@@ -362,27 +532,11 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 1,
+          "score": 1
         },
         {
           "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 2,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 6
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 4
-        },
-        {
-          "date": "2026-05-27",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
@@ -390,7 +544,31 @@
           "score": 0
         },
         {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
           "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
@@ -398,20 +576,12 @@
           "score": 1
         },
         {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
           "date": "2026-05-30",
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
+          "issuesClosed": 1,
+          "score": 4
         },
         {
           "date": "2026-05-31",
@@ -426,247 +596,77 @@
         {
           "type": "issue_closed",
           "title": "Simulator UI freeze on large circuits",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/170",
-          "repo": "CircuitVerse/cv-frontend-vue",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/121",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-31",
           "points": 1
         },
         {
           "type": "pr_merged",
-          "title": "Fix memory threshold limits",
+          "title": "Fix simulator canvas rendering",
           "url": "https://github.com/CircuitVerse/Interactive-Book/pull/8",
           "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-30",
           "points": 3
         },
         {
-          "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/33",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-29",
-          "points": 3
+          "type": "issue_closed",
+          "title": "Full-screen mode overlaps panels",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/139",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 1
         },
         {
           "type": "issue_closed",
-          "title": "Add keyboard map guides",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/277",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-28",
+          "title": "Subcircuit inputs fail state updates",
+          "url": "https://github.com/CircuitVerse/Blog/issues/91",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-29",
           "points": 1
         },
         {
           "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/194",
-          "repo": "CircuitVerse/mobile-app",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/186",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/235",
+          "repo": "CircuitVerse/CircuitVerse",
           "date": "2026-05-26",
           "points": 3
         },
         {
           "type": "issue_closed",
           "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/52",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Add PDF/PNG export support",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/73",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Implement search filtration",
-          "url": "https://github.com/CircuitVerse/Blog/pull/275",
+          "url": "https://github.com/CircuitVerse/Blog/issues/117",
           "repo": "CircuitVerse/Blog",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Interactive book sandbox 404 error",
-          "url": "https://github.com/CircuitVerse/Blog/issues/174",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-22",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Asrani-Aman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4239934?v=4",
-      "profileUrl": "https://github.com/Asrani-Aman",
-      "team": "NasaVerse",
-      "prsOpened": 0,
-      "prsMerged": 4,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 12,
-      "score": 12,
-      "activityLevel": "High",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
           "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Add internationalization support",
-          "url": "https://github.com/CircuitVerse/Blog/pull/1",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/21",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/101",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-26",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
+          "points": 1
         }
       ]
     },
     {
       "username": "aryan7071",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4430125?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4768918?v=4",
       "profileUrl": "https://github.com/aryan7071",
       "team": "NasaVerse",
       "prsOpened": 0,
-      "prsMerged": 2,
+      "prsMerged": 3,
       "issuesOpened": 0,
-      "issuesClosed": 3,
-      "issuesPrClosedScore": 3,
-      "prsMergedScore": 6,
-      "score": 9,
-      "activityLevel": "Medium",
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 9,
+      "score": 11,
+      "activityLevel": "High",
       "dailyActivity": [
         {
           "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
@@ -674,23 +674,7 @@
           "score": 3
         },
         {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
+          "date": "2026-05-23",
           "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
@@ -698,12 +682,52 @@
           "score": 4
         },
         {
-          "date": "2026-05-29",
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-27",
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 1,
           "score": 1
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-30",
@@ -723,775 +747,43 @@
         }
       ],
       "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "Add keyboard map guides",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/225",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-29",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Optimize truth table generation",
-          "url": "https://github.com/CircuitVerse/Blog/pull/182",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-28",
-          "points": 3
-        },
         {
           "type": "issue_closed",
           "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/260",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-28",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Interactive book sandbox 404 error",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/164",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/64",
           "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-26",
+          "date": "2026-05-27",
           "points": 1
         },
         {
           "type": "pr_merged",
-          "title": "Implement search filtration",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/70",
+          "title": "Improve test coverage",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/36",
           "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "Me-Priyank",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4216499?v=4",
-      "profileUrl": "https://github.com/Me-Priyank",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 3,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 9,
-      "score": 9,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/234",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Optimize truth table generation",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/210",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Add PDF/PNG export support",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/83",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-24",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "SouparnaChatterjee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5042825?v=4",
-      "profileUrl": "https://github.com/SouparnaChatterjee",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 3,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 9,
-      "score": 9,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/124",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix memory threshold limits",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/148",
-          "repo": "CircuitVerse/CircuitVerseDocs",
           "date": "2026-05-26",
           "points": 3
         },
         {
           "type": "pr_merged",
-          "title": "Optimize truth table generation",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/210",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "yashikajotwani12",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4144158?v=4",
-      "profileUrl": "https://github.com/yashikajotwani12",
-      "team": "The Debug Divas",
-      "prsOpened": 0,
-      "prsMerged": 3,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 9,
-      "score": 9,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 2,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 6
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/70",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-28",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Add PDF/PNG export support",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/73",
+          "title": "Upgrade Next.js dependencies",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/131",
           "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-25",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "Aakansha-Chavan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4273695?v=4",
-      "profileUrl": "https://github.com/Aakansha-Chavan",
-      "team": "The Debug Divas",
-      "prsOpened": 0,
-      "prsMerged": 2,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 6,
-      "score": 7,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
           "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "Touch gate drag snaps misaligned",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/48",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-29",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/70",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-28",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix memory threshold limits",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/148",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-26",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "chethanac15",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4232697?v=4",
-      "profileUrl": "https://github.com/chethanac15",
-      "team": "Team 5",
-      "prsOpened": 0,
-      "prsMerged": 2,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 6,
-      "score": 7,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Add PDF/PNG export support",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/207",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-28",
           "points": 3
         },
         {
           "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/7",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Add custom clock timing",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/68",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "hardik17771",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4966201?v=4",
-      "profileUrl": "https://github.com/hardik17771",
-      "team": "Dart Vaders",
-      "prsOpened": 0,
-      "prsMerged": 2,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 6,
-      "score": 7,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
+          "title": "Simulator UI freeze on large circuits",
+          "url": "https://github.com/CircuitVerse/mobile-app/issues/234",
+          "repo": "CircuitVerse/mobile-app",
           "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "Interactive book sandbox 404 error",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/224",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-30",
           "points": 1
         },
         {
           "type": "pr_merged",
-          "title": "Add custom clock timing",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/93",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-24",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/78",
-          "repo": "CircuitVerse/CircuitVerse",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/235",
+          "repo": "CircuitVerse/CircuitVerseDocs",
           "date": "2026-05-22",
           "points": 3
         }
@@ -1499,9 +791,1245 @@
     },
     {
       "username": "magic-peach",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4338106?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4381077?v=4",
       "profileUrl": "https://github.com/magic-peach",
       "team": "CtrlAltDlt",
+      "prsOpened": 0,
+      "prsMerged": 3,
+      "issuesOpened": 0,
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 9,
+      "score": 11,
+      "activityLevel": "High",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 6
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Implement search filtration",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/52",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Improve test coverage",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/145",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Dark mode low contrast margins",
+          "url": "https://github.com/CircuitVerse/Blog/issues/245",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Simulator UI freeze on large circuits",
+          "url": "https://github.com/CircuitVerse/Blog/issues/62",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-25",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add dark mode support",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/68",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-22",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Saniya-r-Shaikh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4115980?v=4",
+      "profileUrl": "https://github.com/Saniya-r-Shaikh",
+      "team": "CtrlAltDlt",
+      "prsOpened": 0,
+      "prsMerged": 3,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 9,
+      "score": 9,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 6
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Implement search filtration",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/47",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/174",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Optimize truth table generation",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/187",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-24",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "hardik17771",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4997149?v=4",
+      "profileUrl": "https://github.com/hardik17771",
+      "team": "Dart Vaders",
+      "prsOpened": 0,
+      "prsMerged": 3,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 9,
+      "score": 9,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 6
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/270",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-26",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/67",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Improve test coverage",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/241",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "chethanac15",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4313946?v=4",
+      "profileUrl": "https://github.com/chethanac15",
+      "team": "Team 5",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 6,
+      "score": 8,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: Improve test coverage",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/37",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Touch gate drag snaps misaligned",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/109",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "API endpoints timeout on deep feeds",
+          "url": "https://github.com/CircuitVerse/Blog/issues/268",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-24",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add dark mode support",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/111",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-24",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "aryanndwi123",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4503919?v=4",
+      "profileUrl": "https://github.com/aryanndwi123",
+      "team": "CtrlAltDlt",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 6,
+      "score": 7,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Add keyboard map guides",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/200",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Blog/pull/64",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-28",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add dark mode support",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/83",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-25",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Yana-do-code",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4466970?v=4",
+      "profileUrl": "https://github.com/Yana-do-code",
+      "team": "The Debug Divas",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 6,
+      "score": 7,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Refactor sequential logic",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/249",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "API endpoints timeout on deep feeds",
+          "url": "https://github.com/CircuitVerse/mobile-app/issues/257",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-30",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/241",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-26",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "yashikajotwani12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4016958?v=4",
+      "profileUrl": "https://github.com/yashikajotwani12",
+      "team": "The Debug Divas",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 6,
+      "score": 7,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Simulator UI freeze on large circuits",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/54",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-27",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add dark mode support",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/83",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-25",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Implement search filtration",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/31",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-24",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "PRATHAM2002-DS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4503054?v=4",
+      "profileUrl": "https://github.com/PRATHAM2002-DS",
+      "team": "Team 5",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 6,
+      "score": 7,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Improve test coverage",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/37",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Full-screen mode overlaps panels",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/176",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-31",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix touch viewport bugs",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/25",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-30",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "blazethunderstorm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4191884?v=4",
+      "profileUrl": "https://github.com/blazethunderstorm",
+      "team": "Team 6",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 1,
+      "issuesPrClosedScore": 1,
+      "prsMergedScore": 6,
+      "score": 7,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Upgrade Next.js dependencies",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/213",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Merged: Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/200",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Dark mode low contrast margins",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/179",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-26",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Harkeerat24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4034467?v=4",
+      "profileUrl": "https://github.com/Harkeerat24",
+      "team": "CtrlAltDlt",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 6,
+      "score": 6,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/181",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-27",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/67",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-25",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "nihal4777",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4782460?v=4",
+      "profileUrl": "https://github.com/nihal4777",
+      "team": "LGTM",
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
@@ -1554,18 +2082,18 @@
         {
           "date": "2026-05-27",
           "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
           "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 2,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 6
         },
         {
           "date": "2026-05-29",
@@ -1586,35 +2114,149 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         }
       ],
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Implement search filtration",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/279",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-31",
+          "title": "Fix simulator canvas rendering",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/155",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-28",
           "points": 3
         },
         {
           "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/234",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-27",
+          "title": "Merged: Refactor sequential logic",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/153",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-28",
           "points": 3
         }
       ]
     },
     {
-      "username": "Yana-do-code",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4344543?v=4",
-      "profileUrl": "https://github.com/Yana-do-code",
+      "username": "Radhikaa-chauhan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4720667?v=4",
+      "profileUrl": "https://github.com/Radhikaa-chauhan",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 2,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 6,
+      "score": 6,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Merged: Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Blog/pull/107",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-30",
+          "points": 3
+        },
+        {
+          "type": "pr_merged",
+          "title": "Fix memory threshold limits",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/174",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-25",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Teesta-Mukherjee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4640160?v=4",
+      "profileUrl": "https://github.com/Teesta-Mukherjee",
       "team": "The Debug Divas",
       "prsOpened": 0,
       "prsMerged": 2,
@@ -1676,18 +2318,18 @@
         {
           "date": "2026-05-28",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 2,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 0
+          "score": 6
         },
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         },
         {
           "date": "2026-05-30",
@@ -1700,36 +2342,36 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         }
       ],
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Upgrade Next.js dependencies",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/101",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-31",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/267",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-28",
           "points": 3
         },
         {
           "type": "pr_merged",
-          "title": "Fix memory threshold limits",
-          "url": "https://github.com/CircuitVerse/Blog/pull/208",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-29",
+          "title": "Refactor sequential logic",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/153",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-28",
           "points": 3
         }
       ]
     },
     {
-      "username": "SantamRC",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4931527?v=4",
-      "profileUrl": "https://github.com/SantamRC",
-      "team": "Dart Vaders",
+      "username": "pranjaligoyal31",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4543980?v=4",
+      "profileUrl": "https://github.com/pranjaligoyal31",
+      "team": "Team 5",
       "prsOpened": 0,
       "prsMerged": 2,
       "issuesOpened": 0,
@@ -1766,18 +2408,18 @@
         {
           "date": "2026-05-25",
           "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
           "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
         },
         {
           "date": "2026-05-27",
@@ -1790,10 +2432,10 @@
         {
           "date": "2026-05-28",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 0
+          "score": 3
         },
         {
           "date": "2026-05-29",
@@ -1814,43 +2456,165 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         }
       ],
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Merged: Upgrade Next.js dependencies",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/101",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-31",
+          "title": "Merged: Add custom clock timing",
+          "url": "https://github.com/CircuitVerse/Blog/pull/64",
+          "repo": "CircuitVerse/Blog",
+          "date": "2026-05-28",
           "points": 3
         },
         {
           "type": "pr_merged",
-          "title": "Merged: Add custom clock timing",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/68",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-25",
+          "title": "Refactor sequential logic",
+          "url": "https://github.com/CircuitVerse/mobile-app/pull/63",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-26",
           "points": 3
+        }
+      ]
+    },
+    {
+      "username": "haaasini01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4903250?v=4",
+      "profileUrl": "https://github.com/haaasini01",
+      "team": "Team 5",
+      "prsOpened": 0,
+      "prsMerged": 1,
+      "issuesOpened": 0,
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 3,
+      "score": 5,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 1
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 1,
+          "score": 4
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Improve test coverage",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/145",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-29",
+          "points": 3
+        },
+        {
+          "type": "issue_closed",
+          "title": "Touch gate drag snaps misaligned",
+          "url": "https://github.com/CircuitVerse/mobile-app/issues/262",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-29",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "Dark mode low contrast margins",
+          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/274",
+          "repo": "CircuitVerse/cv-frontend-vue",
+          "date": "2026-05-27",
+          "points": 1
         }
       ]
     },
     {
       "username": "JatsuAkaYashvant",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4745179?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4377621?v=4",
       "profileUrl": "https://github.com/JatsuAkaYashvant",
       "team": "Dart Vaders",
       "prsOpened": 0,
-      "prsMerged": 2,
+      "prsMerged": 1,
       "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 6,
-      "score": 6,
+      "issuesClosed": 2,
+      "issuesPrClosedScore": 2,
+      "prsMergedScore": 3,
+      "score": 5,
       "activityLevel": "Medium",
       "dailyActivity": [
         {
@@ -1864,10 +2628,10 @@
         {
           "date": "2026-05-23",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         },
         {
           "date": "2026-05-24",
@@ -1880,10 +2644,10 @@
         {
           "date": "2026-05-25",
           "prsOpened": 0,
-          "prsMerged": 0,
+          "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 0
+          "score": 3
         },
         {
           "date": "2026-05-26",
@@ -1898,16 +2662,16 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
+          "issuesClosed": 1,
+          "score": 1
         },
         {
           "date": "2026-05-28",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
+          "issuesClosed": 1,
+          "score": 1
         },
         {
           "date": "2026-05-29",
@@ -1936,143 +2700,37 @@
       ],
       "contributions": [
         {
-          "type": "pr_merged",
-          "title": "Merged: Optimize truth table generation",
-          "url": "https://github.com/CircuitVerse/Blog/pull/182",
-          "repo": "CircuitVerse/Blog",
+          "type": "issue_closed",
+          "title": "Simulator UI freeze on large circuits",
+          "url": "https://github.com/CircuitVerse/mobile-app/issues/133",
+          "repo": "CircuitVerse/mobile-app",
           "date": "2026-05-28",
-          "points": 3
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "API endpoints timeout on deep feeds",
+          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/188",
+          "repo": "CircuitVerse/CircuitVerse",
+          "date": "2026-05-27",
+          "points": 1
         },
         {
           "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/Blog/pull/146",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-23",
+          "title": "Improve test coverage",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/241",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-25",
           "points": 3
         }
       ]
     },
     {
       "username": "092vk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4812996?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5109979?v=4",
       "profileUrl": "https://github.com/092vk",
       "team": "Team 6",
       "prsOpened": 0,
-      "prsMerged": 2,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 6,
-      "score": 6,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Upgrade Next.js dependencies",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/235",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/97",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-27",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "aryanndwi123",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4252089?v=4",
-      "profileUrl": "https://github.com/aryanndwi123",
-      "team": "CtrlAltDlt",
-      "prsOpened": 0,
       "prsMerged": 1,
       "issuesOpened": 0,
       "issuesClosed": 2,
@@ -2086,366 +2744,8 @@
           "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
           "issuesClosed": 1,
           "score": 1
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Fix memory threshold limits",
-          "url": "https://github.com/CircuitVerse/Blog/pull/208",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "API endpoints timeout on deep feeds",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/168",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-28",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Touch gate drag snaps misaligned",
-          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/247",
-          "repo": "CircuitVerse/Interactive-Book",
-          "date": "2026-05-27",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Harkeerat24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4614447?v=4",
-      "profileUrl": "https://github.com/Harkeerat24",
-      "team": "CtrlAltDlt",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 2,
-      "issuesPrClosedScore": 2,
-      "prsMergedScore": 3,
-      "score": 5,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Add dark mode support",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/181",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-30",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Subcircuit inputs fail state updates",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/107",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-26",
-          "points": 1
-        },
-        {
-          "type": "issue_closed",
-          "title": "Simulator UI freeze on large circuits",
-          "url": "https://github.com/CircuitVerse/Blog/issues/217",
-          "repo": "CircuitVerse/Blog",
-          "date": "2026-05-25",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Saniya-r-Shaikh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5006006?v=4",
-      "profileUrl": "https://github.com/Saniya-r-Shaikh",
-      "team": "CtrlAltDlt",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 3,
-      "score": 4,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/74",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-28",
-          "points": 1
-        },
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/279",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-22",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "nihal4777",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4935561?v=4",
-      "profileUrl": "https://github.com/nihal4777",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 3,
-      "score": 4,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
         },
         {
           "date": "2026-05-23",
@@ -2470,348 +2770,6 @@
           "issuesOpened": 0,
           "issuesClosed": 0,
           "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/37",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-28",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Dark mode low contrast margins",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/issues/171",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-23",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Radhikaa-chauhan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4416814?v=4",
-      "profileUrl": "https://github.com/Radhikaa-chauhan",
-      "team": "LGTM",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 3,
-      "score": 4,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Fix simulator canvas rendering",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/1",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-29",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Interactive book sandbox 404 error",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/125",
-          "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-24",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Shahbaz898414",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4527604?v=4",
-      "profileUrl": "https://github.com/Shahbaz898414",
-      "team": "Team 5",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 3,
-      "score": 4,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 1,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 3
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Fix touch viewport bugs",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/236",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-31",
-          "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "Add keyboard map guides",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/28",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-27",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "PRATHAM2002-DS",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4420399?v=4",
-      "profileUrl": "https://github.com/PRATHAM2002-DS",
-      "team": "Team 5",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 1,
-      "issuesPrClosedScore": 1,
-      "prsMergedScore": 3,
-      "score": 4,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 1,
-          "score": 1
         },
         {
           "date": "2026-05-26",
@@ -2866,26 +2824,34 @@
         {
           "type": "pr_merged",
           "title": "Add PDF/PNG export support",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/207",
-          "repo": "CircuitVerse/mobile-app",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/224",
+          "repo": "CircuitVerse/Interactive-Book",
           "date": "2026-05-28",
           "points": 3
         },
         {
           "type": "issue_closed",
-          "title": "Full-screen mode overlaps panels",
-          "url": "https://github.com/CircuitVerse/mobile-app/issues/66",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-25",
+          "title": "Touch gate drag snaps misaligned",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/248",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-23",
+          "points": 1
+        },
+        {
+          "type": "issue_closed",
+          "title": "API endpoints timeout on deep feeds",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/issues/100",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-22",
           "points": 1
         }
       ]
     },
     {
-      "username": "blazethunderstorm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4613234?v=4",
-      "profileUrl": "https://github.com/blazethunderstorm",
-      "team": "Team 6",
+      "username": "SantamRC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4589542?v=4",
+      "profileUrl": "https://github.com/SantamRC",
+      "team": "Dart Vaders",
       "prsOpened": 0,
       "prsMerged": 1,
       "issuesOpened": 0,
@@ -2930,10 +2896,124 @@
         {
           "date": "2026-05-26",
           "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
           "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 1,
           "score": 1
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "issue_closed",
+          "title": "Add keyboard map guides",
+          "url": "https://github.com/CircuitVerse/mobile-app/issues/169",
+          "repo": "CircuitVerse/mobile-app",
+          "date": "2026-05-28",
+          "points": 1
+        },
+        {
+          "type": "pr_merged",
+          "title": "Add internationalization support",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/220",
+          "repo": "CircuitVerse/CircuitVerseDocs",
+          "date": "2026-05-26",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Me-Priyank",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4914724?v=4",
+      "profileUrl": "https://github.com/Me-Priyank",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 1,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 3,
+      "score": 3,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-27",
@@ -2954,10 +3034,10 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         },
         {
           "date": "2026-05-30",
@@ -2979,26 +3059,124 @@
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/224",
+          "title": "Upgrade Next.js dependencies",
+          "url": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/22",
           "repo": "CircuitVerse/CircuitVerseDocs",
-          "date": "2026-05-29",
+          "date": "2026-05-25",
           "points": 3
-        },
-        {
-          "type": "issue_closed",
-          "title": "API endpoints timeout on deep feeds",
-          "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/149",
-          "repo": "CircuitVerse/cv-frontend-vue",
-          "date": "2026-05-26",
-          "points": 1
         }
       ]
     },
     {
-      "username": "Teesta-Mukherjee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5002201?v=4",
-      "profileUrl": "https://github.com/Teesta-Mukherjee",
+      "username": "SouparnaChatterjee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5055025?v=4",
+      "profileUrl": "https://github.com/SouparnaChatterjee",
+      "team": "LGTM",
+      "prsOpened": 0,
+      "prsMerged": 1,
+      "issuesOpened": 0,
+      "issuesClosed": 0,
+      "issuesPrClosedScore": 0,
+      "prsMergedScore": 3,
+      "score": 3,
+      "activityLevel": "Medium",
+      "dailyActivity": [
+        {
+          "date": "2026-05-22",
+          "prsOpened": 0,
+          "prsMerged": 1,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 3
+        },
+        {
+          "date": "2026-05-23",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-24",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-25",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-26",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-27",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-28",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-29",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        },
+        {
+          "date": "2026-05-31",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
+        }
+      ],
+      "contributions": [
+        {
+          "type": "pr_merged",
+          "title": "Fix simulator canvas rendering",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/90",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-22",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Aakansha-Chavan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4103800?v=4",
+      "profileUrl": "https://github.com/Aakansha-Chavan",
       "team": "The Debug Divas",
       "prsOpened": 0,
       "prsMerged": 1,
@@ -3036,10 +3214,10 @@
         {
           "date": "2026-05-25",
           "prsOpened": 0,
-          "prsMerged": 1,
+          "prsMerged": 0,
           "issuesOpened": 0,
           "issuesClosed": 0,
-          "score": 3
+          "score": 0
         },
         {
           "date": "2026-05-26",
@@ -3084,133 +3262,27 @@
         {
           "date": "2026-05-31",
           "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        }
-      ],
-      "contributions": [
-        {
-          "type": "pr_merged",
-          "title": "Merged: Implement search filtration",
-          "url": "https://github.com/CircuitVerse/CircuitVerse/pull/70",
-          "repo": "CircuitVerse/CircuitVerse",
-          "date": "2026-05-25",
-          "points": 3
-        }
-      ]
-    },
-    {
-      "username": "haaasini01",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4461464?v=4",
-      "profileUrl": "https://github.com/haaasini01",
-      "team": "Team 5",
-      "prsOpened": 0,
-      "prsMerged": 1,
-      "issuesOpened": 0,
-      "issuesClosed": 0,
-      "issuesPrClosedScore": 0,
-      "prsMergedScore": 3,
-      "score": 3,
-      "activityLevel": "Medium",
-      "dailyActivity": [
-        {
-          "date": "2026-05-22",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-23",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-24",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-25",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-26",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-27",
-          "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 0,
           "score": 3
-        },
-        {
-          "date": "2026-05-28",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-29",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-31",
-          "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
         }
       ],
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Merged: Refactor sequential logic",
-          "url": "https://github.com/CircuitVerse/mobile-app/pull/234",
-          "repo": "CircuitVerse/mobile-app",
-          "date": "2026-05-27",
+          "title": "Fix touch viewport bugs",
+          "url": "https://github.com/CircuitVerse/Interactive-Book/pull/80",
+          "repo": "CircuitVerse/Interactive-Book",
+          "date": "2026-05-31",
           "points": 3
         }
       ]
     },
     {
-      "username": "pranjaligoyal31",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4277727?v=4",
-      "profileUrl": "https://github.com/pranjaligoyal31",
+      "username": "Shahbaz898414",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4563429?v=4",
+      "profileUrl": "https://github.com/Shahbaz898414",
       "team": "Team 5",
       "prsOpened": 0,
       "prsMerged": 1,
@@ -3280,18 +3352,18 @@
         {
           "date": "2026-05-29",
           "prsOpened": 0,
-          "prsMerged": 0,
-          "issuesOpened": 0,
-          "issuesClosed": 0,
-          "score": 0
-        },
-        {
-          "date": "2026-05-30",
-          "prsOpened": 0,
           "prsMerged": 1,
           "issuesOpened": 0,
           "issuesClosed": 0,
           "score": 3
+        },
+        {
+          "date": "2026-05-30",
+          "prsOpened": 0,
+          "prsMerged": 0,
+          "issuesOpened": 0,
+          "issuesClosed": 0,
+          "score": 0
         },
         {
           "date": "2026-05-31",
@@ -3305,10 +3377,10 @@
       "contributions": [
         {
           "type": "pr_merged",
-          "title": "Add internationalization support",
-          "url": "https://github.com/CircuitVerse/Blog/pull/131",
+          "title": "Optimize truth table generation",
+          "url": "https://github.com/CircuitVerse/Blog/pull/51",
           "repo": "CircuitVerse/Blog",
-          "date": "2026-05-30",
+          "date": "2026-05-29",
           "points": 3
         }
       ]
@@ -3318,26 +3390,26 @@
     {
       "date": "2026-05-22",
       "prsOpened": 0,
-      "prsMerged": 2,
+      "prsMerged": 5,
       "issuesOpened": 0,
       "issuesClosed": 2,
-      "score": 8
+      "score": 17
     },
     {
       "date": "2026-05-23",
       "prsOpened": 0,
       "prsMerged": 1,
       "issuesOpened": 0,
-      "issuesClosed": 3,
-      "score": 6
+      "issuesClosed": 2,
+      "score": 5
     },
     {
       "date": "2026-05-24",
       "prsOpened": 0,
-      "prsMerged": 2,
+      "prsMerged": 5,
       "issuesOpened": 0,
-      "issuesClosed": 2,
-      "score": 8
+      "issuesClosed": 3,
+      "score": 18
     },
     {
       "date": "2026-05-25",
@@ -3350,50 +3422,50 @@
     {
       "date": "2026-05-26",
       "prsOpened": 0,
-      "prsMerged": 5,
+      "prsMerged": 9,
       "issuesOpened": 0,
-      "issuesClosed": 6,
-      "score": 21
+      "issuesClosed": 2,
+      "score": 29
     },
     {
       "date": "2026-05-27",
       "prsOpened": 0,
       "prsMerged": 4,
       "issuesOpened": 0,
-      "issuesClosed": 4,
-      "score": 16
+      "issuesClosed": 7,
+      "score": 19
     },
     {
       "date": "2026-05-28",
       "prsOpened": 0,
       "prsMerged": 7,
       "issuesOpened": 0,
-      "issuesClosed": 4,
-      "score": 25
+      "issuesClosed": 5,
+      "score": 26
     },
     {
       "date": "2026-05-29",
       "prsOpened": 0,
-      "prsMerged": 9,
+      "prsMerged": 7,
       "issuesOpened": 0,
       "issuesClosed": 3,
-      "score": 30
+      "score": 24
     },
     {
       "date": "2026-05-30",
       "prsOpened": 0,
-      "prsMerged": 7,
+      "prsMerged": 8,
       "issuesOpened": 0,
-      "issuesClosed": 1,
-      "score": 22
+      "issuesClosed": 2,
+      "score": 26
     },
     {
       "date": "2026-05-31",
       "prsOpened": 0,
-      "prsMerged": 4,
+      "prsMerged": 3,
       "issuesOpened": 0,
       "issuesClosed": 2,
-      "score": 14
+      "score": 11
     }
   ]
 }
